@@ -109,12 +109,28 @@ Project created to raise BRCA awarness.
 <!-- brief description of goals and requirements -->
 ***
 
-## UX &
+## UX Design
+
 User Experience Design
+
+The goal of this website is to provide resources for users on how they can best support themselves, their friends and family, and the wider community, who have been affected by Breast cancer.
+
+It will collate external resources for each of these three parts (individual, friends/family, world) so the user can easily find information depending on their personal situation. 
+
+There will also be stories shared from the community and a form that allows a user to submit their own personal experience.
 
 ### User Requirements
 
-Some example user stories which will affect the design
+Some example user stories which will affect the design: 
+
+* I want to educate myself and understand how and what I should check myself for
+* I want to learn how I can support friends and family that are going through a bereavement
+* I want to find out how I can help someone going through a diagnosis or treatment
+* I want to learn how I can support myself through a bereavement
+* I want to find out how I can help the wider reasearch of cancer treatments and preventative action
+* I want to find ideas on how I can raise money for cancer charities
+* I want to read stories of those with similar experiences
+* I want to share my own expereinces with the community 
 
 <!-- user stories here -->
 ***
@@ -122,9 +138,12 @@ Some example user stories which will affect the design
 ### Initial Concept
 
 <!-- concept here -->
+
 #### Wireframes
 
-<!-- wireframes here -->
+These are the initial wireframes from our initial project mind-map and scoping. They are subject to change as the project develops. 
+
+![Wireframes](assets/images/readme/wireframes.png)
 
 <!-- Photos *See [here]() for other device types* -->
 ***
