@@ -28,6 +28,20 @@ Do not talk only about female breast cancer, rare (but possible) male could deve
 
 Perhaps is good to call it on CLICK here page -> breast/ chest cancer.
 
+## Story:
+
+### I wish you were here, with your friends and family. 
+
+It was late November a rainy day when I was standing in front of your beautifully painted coffin which you paint together with your lovely nieces just a week ago. Looking back through my memories of all good times, we had together. Talking to you in my heart and asking why such strong independent women like you are here, why a world is so unfair to good people. You were always helping everyone but this time you couldn’t help yourself.
+Just a few months earlier, you told to me “I need to visit my doctor”, I did ask you why? You only told me “It’s nothing it is a small infection, no worries, I’ll be fine” unfortunately it wasn’t a small infection it was the 3rd stage of breast cancer.
+A month later you were about to start treatment, smiling because you received your wig made of your beautiful curly hairs, my heart was breaking…
+Even though you were in this stage you never gave up, you were the strongest fighter I have ever seen, fighting till the last day of your life. Still remember your words:
+*“I’m not giving up! I’m giving myself the best chance to survive, doing all I can to prolong my life”*.
+
+I’m begging all of you, please test yourself don’t wait till the last moment, and always fight NEVER give up. 
+--Kamil--
+
+
  
 Style:
 Style should be light pink, mixed with white background.
