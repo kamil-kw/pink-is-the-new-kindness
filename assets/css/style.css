@@ -1,30 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,900;1,100&display=swap');
+html {
+  font-size: 12px;
+}
 
-/* --------------- Navbar */
-.fixed-top {
-    --bs-bg-opacity: 0.7;
-    background-color: rgba(var(--bs-red), var(--bs-bg-opacity)) !important;
-  }
+/* ------------------------------- Be kind and TLC section*/
 
-  .container {
-    background-color: white;
-    width: 100%;
-    margin: auto;
-    margin-top: 2%;
-    
-  }
+.container {
+  background-color: white;
+  width: 100%;
+  margin: auto;
+  margin-top: 2%;
+  
+}
 
-  .col {
-   
+.box {
     background-color: #EEC8E0;
     margin: 1%;
-    width: 30%;
     text-align: center;
     margin: auto;
+    width: 317px;
+    height: 243px;
+}
 
+  .box h2 {
+    font-size: 1rem;
   }
 
-/* carousel */
+/* ------------------------------- Carousel */
 
 .carousel .carousel-item {
   height: 550px;
@@ -33,6 +35,13 @@
 .carousel .carousel-item img {
   height: 550px;
   object-fit: cover;
+}
+
+/* ------------------------------- Tell us story form */
+.row {
+  --bs-gutter-x: 0.5rem;
+  width: 100vw;
+  max-width: 96vw;
 }
 
 /* Esteph */
@@ -46,10 +55,11 @@ body {
   letter-spacing: 3px;
 }
 
+/* ------------------------------- Header image */
 #hero-image {
   background-image: url('../images-for-site/pexels-oranges.jpg');
   background-repeat: no-repeat;
-  background-size: 75%;
+  background-size: 100vw;
   background-position: 50%;
   overflow: hidden;
   background-color: #DDC0C8;
@@ -63,22 +73,36 @@ body {
 #hero-image h1 {
   font-weight: 900;
   color: #FAF8F9;
-  font-size: 200px;
+  font-size: 5rem;
   letter-spacing: 50px;
   text-align: center;
+  margin-top: 10%;
 }
 
 #hero-image h3 {
   color: #FAF8F9;
-  font-size: 50px;
+  font-size: 2.8rem;
   text-align: center;
-  margin-top: 30%;
+  margin-top: 110%;
+}
+
+/* ------------------------------- Navbar */
+.fixed-top {
+  --bs-bg-opacity: 0.7;
+  background-color: rgba(var(--bs-red), var(--bs-bg-opacity)) !important;
+}
+
+.container {
+  background-color: white;
+  width: 100%;
+  margin: auto;
+  margin-top: 2%; 
 }
 
 
-/* Esteph - Media queries */
-/*for mobile screens */
-@media (max-width: 600px) {
+/* ------------------------------- Esteph - Media queries */
+/* ------------------------------- for mobile screens */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
 
   #hero-image h1 {
       font-size: 80px;
@@ -92,10 +116,18 @@ body {
       position: absolute;
       bottom: 70px;
   }
+  .box {
+    background-color: #EEC8E0;
+    margin: 1%;
+    text-align: center;
+    margin: auto;
+    width: 317px;
+    height: 243px;
+}
 }
 
-/*for ipad and tablet screens */
-@media (max-width: 992px) {
+/* ------------------------------- for ipad and tablet screens */
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
 
   #hero-image {
       background-size: 55%;
@@ -112,3 +144,13 @@ body {
       margin-top: 55%;
       text-align: center;
   }
+  .box {
+    background-color: #EEC8E0;
+    margin: 1%;
+    text-align: center;
+    margin: auto;
+    width: 375px;
+    height: 243px;
+  }
+
+}
