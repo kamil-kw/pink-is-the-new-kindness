@@ -5,3 +5,21 @@
     --bs-bg-opacity: 0.7;
     background-color: rgba(var(--bs-red), var(--bs-bg-opacity)) !important;
   }
+
+  .container {
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    margin-top: 2%;
+    
+  }
+
+  .col {
+   
+    background-color: #EEC8E0;
+    margin: 1%;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+
+  }
