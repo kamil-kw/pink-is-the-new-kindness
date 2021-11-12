@@ -23,3 +23,16 @@
     margin: auto;
 
   }
+
+
+/* carousel */
+
+.carousel .carousel-item {
+  height: 400px;
+}
+
+.carousel .carousel-item img {
+  min-height: 400px;
+  max-height: 400px;
+  object-fit: cover;
+}
