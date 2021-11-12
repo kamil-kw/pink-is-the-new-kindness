@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,900;1,100&display=swap');
 
 /* --------------- Navbar */
 .fixed-top {
@@ -23,3 +23,83 @@
     margin: auto;
 
   }
+
+
+/* Esteph */
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 3px;
+}
+
+#hero-image {
+  background-image: url('../images-for-site/pexels-oranges.jpg');
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: 50%;
+  overflow: hidden;
+  background-color: #DDC0C8;
+  
+  margin-bottom: 10%;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+}
+
+#hero-image h1 {
+  font-weight: 900;
+  color: #FAF8F9;
+  font-size: 200px;
+  letter-spacing: 50px;
+  text-align: center;
+}
+
+#hero-image h3 {
+  color: #FAF8F9;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 30%;
+}
+
+
+/* Esteph - Media queries */
+/*for mobile screens */
+@media (max-width: 600px) {
+
+  #hero-image h1 {
+      font-size: 80px;
+      margin-top: 20%;
+      letter-spacing: 10px;
+  }
+
+  #hero-image h3 {
+      font-size: 30px;
+      margin-top: 70%;
+      position: absolute;
+      bottom: 70px;
+  }
+}
+
+/*for ipad and tablet screens */
+@media (max-width: 992px) {
+
+  #hero-image {
+      background-size: 55%;
+  }
+
+  #hero-image h1 {
+      font-size: 110px;
+      margin-top: 5%;
+      letter-spacing: 10px;
+  }
+
+  #hero-image h3 {
+      font-size: 30px;
+      margin-top: 55%;
+      text-align: center;
+  }
+}
