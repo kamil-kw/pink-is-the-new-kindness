@@ -28,11 +28,10 @@
 /* carousel */
 
 .carousel .carousel-item {
-  height: 400px;
+  height: 550px;
 }
 
 .carousel .carousel-item img {
-  min-height: 400px;
-  max-height: 400px;
+  height: 550px;
   object-fit: cover;
 }
