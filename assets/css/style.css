@@ -24,6 +24,16 @@
 
   }
 
+/* carousel */
+
+.carousel .carousel-item {
+  height: 550px;
+}
+
+.carousel .carousel-item img {
+  height: 550px;
+  object-fit: cover;
+}
 
 /* Esteph */
 * {
@@ -102,4 +112,3 @@ body {
       margin-top: 55%;
       text-align: center;
   }
-}
