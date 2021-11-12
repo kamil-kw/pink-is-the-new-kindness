@@ -1,0 +1,7 @@
+
+
+/* --------------- Navbar */
+.fixed-top {
+    --bs-bg-opacity: 0.7;
+    background-color: rgba(var(--bs-red), var(--bs-bg-opacity)) !important;
+  }
