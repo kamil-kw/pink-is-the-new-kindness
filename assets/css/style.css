@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,900;1,100&display=swap');
 html {
   font-size: 12px;
+  scroll-behavior: smooth;
 }
 
 /* ------------------------------- Be kind and TLC section*/
@@ -99,6 +100,12 @@ body {
   margin-top: 2%; 
 }
 
+
+/*------------------------------  Interactive elements */ 
+
+.fade {
+  opacity: 0;
+}
 
 /* ------------------------------- Esteph - Media queries */
 /* ------------------------------- for mobile screens */
