@@ -37,12 +37,6 @@ html {
   object-fit: cover;
 }
 
-/* ------------------------------- Tell us story form */
-.row {
-  --bs-gutter-x: 0.5rem;
-  width: 100vw;
-  max-width: 96vw;
-}
 
 /* Esteph */
 * {
@@ -123,7 +117,11 @@ body {
     margin: auto;
     width: 317px;
     height: 243px;
-}
+  }
+
+  #story-form {
+    padding: 40px 20px!important;
+  }
 }
 
 /* ------------------------------- for ipad and tablet screens */
@@ -151,6 +149,11 @@ body {
     margin: auto;
     width: 375px;
     height: 243px;
+  }
+
+  /* ------------------------------- Tell us story form */
+  #story-form {
+    padding: 40px 120px!important;
   }
 
 }
