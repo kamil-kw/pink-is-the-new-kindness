@@ -2,6 +2,7 @@
 
 html {
   font-size: 12px;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -99,6 +100,37 @@ html {
   margin-top: 2%; 
 }
 
+
+/*------------------------------  Sophie - Interactive elements */ 
+
+/*-------- Fade in on scroll */
+.fade {
+  opacity: 0;
+}
+
+/*------ Scroll to top link style */
+.scroll {
+  text-align: center;
+}
+
+/* ------ Scale up animation */
+.scale {
+  -webkit-transform: scale(100%);
+  transform: scale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.scale:hover {
+  -webkit-transform: scale(120%);
+  transform: scale(120%);
+} 
+
+/* ----- pink change colour */
+
+#hero-image h1:hover {
+  color: #d2395c;
+} 
 
 /* ------------------------------- Esteph - Media queries */
 /* ------------------------------- for mobile screens */
