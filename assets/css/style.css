@@ -49,6 +49,33 @@ html {
   object-fit: cover;
 }
 
+/* ---------------------------- Story Form */
+
+#story-form {
+  padding: 5px;
+}
+
+form h2 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 900;
+  color: #EEC8E0;
+}
+
+.form-label {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#form-button {
+  background-color: #EEC8E0;
+  font-size: 18px;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
 /* ------------------------------- Header image */
 
