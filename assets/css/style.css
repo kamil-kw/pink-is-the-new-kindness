@@ -59,18 +59,17 @@ html {
   max-width: 100%;
 }
 
-/*
 #hero-image {
   background-image: url('../images-for-site/pexels-oranges.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
-  width: 50%;
+  width: 100%;
   height: 50%;
-  margin-bottom: 3rem;
   margin-left: auto;
   margin-right: auto;
-}*/
+  margin-bottom: 3rem;
+}
 
 #hero-background h1 {
   font-weight: 900;
@@ -85,6 +84,7 @@ html {
   color: #FAF8F9;
   font-size: 4rem;
   text-align: center;
+  letter-spacing: 5px;
 }
 
 /* ------------------------------- Navbar */
@@ -106,13 +106,6 @@ html {
 
 @media screen and (min-width: 300px) and (max-width: 767px) {
   #hero-image {
-    background-image: url('../images-for-site/pexels-oranges.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
-    width: 50%;
-    height: 50%;
-
     width: 100%;
     height: 30%;
     margin-bottom: 5rem;
@@ -157,16 +150,18 @@ html {
 /* ------------------------------- for ipad and tablet screens */
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
 
+  #hero-image {
+    height: 50vh;
+    width: 100vw;
+  }
+
   #hero-background h1 {
-      font-size: 110px;
-      margin-top: 5%;
-      letter-spacing: 10px;
+    padding-top: 0;
+    font-size: 20rem;
   }
 
   #hero-background h3 {
-      font-size: 30px;
-      margin-top: 55%;
-      text-align: center;
+    font-size: 4rem;
   }
 
   .box {
