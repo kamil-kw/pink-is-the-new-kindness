@@ -57,21 +57,27 @@ html {
   height: 100vh;
   width: 100vw;
   max-width: 100%;
-  justify-content: center;
 }
 
 #hero-image {
   background-image: url('../images-for-site/pexels-oranges.jpg');
   background-repeat: no-repeat;
-  background-size: 20%;
+  background-size: cover;
+  background-position: 50%;
+  width: 50%;
+  height: 50%;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #hero-background h1 {
   font-weight: 900;
   color: #FAF8F9;
   font-size: 20rem;
-  letter-spacing: 50px;
+  letter-spacing: 90px;
   text-align: center;
+  margin-left: 5%;
 }
 
 #hero-background h3 {
