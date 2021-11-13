@@ -2,6 +2,7 @@
 
 html {
   font-size: 12px;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -91,11 +92,11 @@ form legend {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
-  width: 50%;
+  width: 100%;
   height: 50%;
-  margin-bottom: 3rem;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 3rem;
 }
 
 #hero-background h1 {
@@ -109,8 +110,9 @@ form legend {
 
 #hero-background h3 {
   color: #FAF8F9;
-  font-size: 5rem;
+  font-size: 4rem;
   text-align: center;
+  letter-spacing: 5px;
 }
 
 /* ------------------------------- Navbar */
@@ -126,23 +128,128 @@ form legend {
   margin-top: 2%; 
 }
 
+/* ------------------------------- Stories page welcome */
+
+#story-background {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+}
+
+#story-image {
+  background-image: url('../images-for-site/pexels-stories.jpg');
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  width: 71%;
+  height: 75%;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#story-background h1 {
+  font-weight: 900;
+  color: #bd3d7d;
+  font-size: 5rem;
+  letter-spacing: 90px;
+  text-align: center;
+  margin-left: 5%;
+  padding-bottom: 2%;
+}
+
+#story-background h3 {
+  color: #bd3d7d;
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* ------------------------------- Stories page - user stories*/
+
+
+.user-story {
+  padding-top: 5%;
+  width: 93.5vw;
+  padding-left: 6.5vw;
+}
+.story-title {
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.story-body {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: justify;
+}
+
+
+/*------------------------------  Sophie - Interactive elements */ 
+
+/*-------- Fade in on scroll */
+.fade {
+  opacity: 0;
+}
+
+/*------ Scroll to top link style */
+.scroll {
+  text-align: center;
+}
+
+/* ------ Scale up animation */
+.scale {
+  -webkit-transform: scale(100%);
+  transform: scale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.scale:hover {
+  -webkit-transform: scale(120%);
+  transform: scale(120%);
+} 
+
+/* ----- pink change colour */
+
+#hero-image h1:hover {
+  color: #d2395c;
+} 
 
 /* ------------------------------- Esteph - Media queries */
 /* ------------------------------- for mobile screens */
-@media screen and (min-width: 767px) and (max-width: 1023px) {
 
-  #hero-image h1 {
-      font-size: 80px;
-      margin-top: 20%;
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  #hero-image {
+    width: 100%;
+    height: 30%;
+    margin-bottom: 5rem;
+  }
+
+  #hero-background h1 {
+      font-size: 8rem;
+      padding-top: 10rem;
+      margin-bottom: 5rem;
       letter-spacing: 10px;
   }
 
-  #hero-image h3 {
-      font-size: 30px;
-      margin-top: 70%;
-      position: absolute;
-      bottom: 70px;
+  #hero-background h3 {
+      font-size: 3rem;
   }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  #hero-image {
+    margin-bottom: 8rem;
+  }
+
+  #hero-background h1 {
+    font-size: 15rem;
+    padding-top: 5rem;
+}
+
   .box {
     background-color: #EEC8E0;
     margin: 1%;
@@ -161,20 +268,19 @@ form legend {
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
 
   #hero-image {
-      background-size: 55%;
+    height: 50vh;
+    width: 100vw;
   }
 
-  #hero-image h1 {
-      font-size: 110px;
-      margin-top: 5%;
-      letter-spacing: 10px;
+  #hero-background h1 {
+    padding-top: 0;
+    font-size: 20rem;
   }
 
-  #hero-image h3 {
-      font-size: 30px;
-      margin-top: 55%;
-      text-align: center;
+  #hero-background h3 {
+    font-size: 4rem;
   }
+
   .box {
     background-color: #EEC8E0;
     margin: 1%;
