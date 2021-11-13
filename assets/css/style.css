@@ -100,6 +100,64 @@ html {
   margin-top: 2%; 
 }
 
+/* ------------------------------- Stories page welcome */
+
+#story-background {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+}
+
+#story-image {
+  background-image: url('../images-for-site/pexels-stories.jpg');
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  width: 71%;
+  height: 75%;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#story-background h1 {
+  font-weight: 900;
+  color: #bd3d7d;
+  font-size: 5rem;
+  letter-spacing: 90px;
+  text-align: center;
+  margin-left: 5%;
+  padding-bottom: 2%;
+}
+
+#story-background h3 {
+  color: #bd3d7d;
+  font-size: 3rem;
+  text-align: center;
+}
+
+/* ------------------------------- Stories page - user stories*/
+
+
+.user-story {
+  padding-top: 5%;
+  width: 93.5vw;
+  padding-left: 6.5vw;
+}
+.story-title {
+  font-size: 1.2rem;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.story-body {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: justify;
+}
+
 
 /*------------------------------  Sophie - Interactive elements */ 
 
