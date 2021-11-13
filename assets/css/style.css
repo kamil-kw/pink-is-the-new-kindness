@@ -2,6 +2,7 @@
 
 html {
   font-size: 12px;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -82,7 +83,7 @@ html {
 
 #hero-background h3 {
   color: #FAF8F9;
-  font-size: 5rem;
+  font-size: 4rem;
   text-align: center;
 }
 
@@ -158,22 +159,73 @@ html {
 }
 
 
+/*------------------------------  Sophie - Interactive elements */ 
+
+/*-------- Fade in on scroll */
+.fade {
+  opacity: 0;
+}
+
+/*------ Scroll to top link style */
+.scroll {
+  text-align: center;
+}
+
+/* ------ Scale up animation */
+.scale {
+  -webkit-transform: scale(100%);
+  transform: scale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.scale:hover {
+  -webkit-transform: scale(120%);
+  transform: scale(120%);
+} 
+
+/* ----- pink change colour */
+
+#hero-image h1:hover {
+  color: #d2395c;
+} 
+
 /* ------------------------------- Esteph - Media queries */
 /* ------------------------------- for mobile screens */
-@media screen and (min-width: 767px) and (max-width: 1023px) {
 
-  #hero-image h1 {
-      font-size: 80px;
-      margin-top: 20%;
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  #hero-image {
+    background-position: cover;
+    width: 100%;
+    height: 30%;
+    margin-bottom: 5rem;
+  }
+
+  #hero-background h1 {
+      font-size: 8rem;
+      padding-top: 10rem;
+      margin-bottom: 5rem;
       letter-spacing: 10px;
   }
 
-  #hero-image h3 {
-      font-size: 30px;
-      margin-top: 70%;
-      position: absolute;
-      bottom: 70px;
+  #hero-background h3 {
+      font-size: 3rem;
   }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+
+  #hero-background h1 {
+      font-size: 20rem;
+      padding-top: 5rem;
+      margin-bottom: 5rem;
+      letter-spacing: 10px;
+  }
+
+  #hero-background h3 {
+      font-size: 4rem;
+  }
+
   .box {
     background-color: #EEC8E0;
     margin: 1%;
@@ -193,15 +245,16 @@ html {
 
   #hero-image {
       background-size: 55%;
+      background-image: 50%;
   }
 
-  #hero-image h1 {
+  #hero-background h1 {
       font-size: 110px;
       margin-top: 5%;
       letter-spacing: 10px;
   }
 
-  #hero-image h3 {
+  #hero-background h3 {
       font-size: 30px;
       margin-top: 55%;
       text-align: center;

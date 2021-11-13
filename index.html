@@ -54,20 +54,20 @@
         <section>
          <!-- Values code -->
             <div class="container">
-                <div class="row">
-                <div class="col-xs-1 col-sm-3 box" id="kind-yourself">
+                <div class="row fade">
+                <div class="col-xs-1 col-sm-3 box scale" id="kind-yourself">
                         <h2>Be kind to <strong>yourself</strong></h2>
                         <i class="fas fa-spa"></i>
                         <p>Detection of early breast cancer signs, give you great chance of winning this fight. Believe in your strength!
                             Check yourself regularly and if your concerned about anything contact your GP.
                         </p>
                 </div>
-                <div class="col-xs-1 col-sm-3 box" id="kind-friends">
+                <div class="col-xs-1 col-sm-3 box scale" id="kind-friends">
                         <h2>Be kind to <strong>family & friends</strong></h2>
                         <i class="fas fa-user-friends"></i>
                         <p>They need you in their lives, and they will be there for you.</p>
                 </div>
-                <div class="col-xs-1 col-sm-3 box" id="kind-world">
+                <div class="col-xs-1 col-sm-3 box scale" id="kind-world">
                         <h2>Be kind to <strong>world</strong></h2><i class="fas fa-globe-americas"></i>
                         <p>Good people deserve to live and contribute to our society.</p>
                 </div>
@@ -75,9 +75,9 @@
             </div>
             <!-- TLC Support Groups Fundraising Ideas -->
             <div class="container">
-                <div class="row">
+                <div class="row fade">
                 <!-- Fundraising Ideas -->
-                <div class="col-xs-1 col-sm-3 box" id="fundraising">
+                <div class="col-xs-1 col-sm-3 box scale" id="fundraising">
                     <h2><strong>Fundraising Ideas</strong></h2>
                     <p><a href="https://www.breastcancerireland.com/get-involved/donate-now/">Breast Cancer Ireland Donate</a>
                         <br><a href="https://breastcancerresearch.ie/support-us/donate/">Breast Cancer Research Institute</a>
@@ -85,7 +85,7 @@
                     </p>
                 </div>
                 <!-- TLC  -->
-                <div class="col-xs-1 col-sm-3 box" id="tlc">
+                <div class="col-xs-1 col-sm-3 box scale" id="tlc">
                     <h2><strong>TLC</strong><br>Touch, Look, Check</h2>
                     <p>TLC stands for touch, look and check. Get used to the feel of your breasts. Keep an eye on any unusual changes in the look of your breasts and check them regularly.
                         <br> <a href="https://breastcancernow.org/information-support/check-your-breasts-2021">Breast Cancer Now</a>
@@ -93,7 +93,7 @@
                     </p>
                 </div>
                 <!-- Support Groups-->
-                <div class="col-xs-1 col-sm-3 box" id="support">
+                <div class="col-xs-1 col-sm-3 box scale" id="support">
                     <h2><strong>Support Groups</strong></h2>
                     <p>
                         <a href="https://www.lookgoodfeelbetter.ie/?gclid=CjwKCAiAvriMBhAuEiwA8Cs5laqIXqcUzT9VjDasa3qmJV8eUphQo_4srDCS9uSIED8l4jb2V31RxBoCiAkQAvD_BwE">Look Good Feel Better</a>
@@ -105,7 +105,7 @@
         
             <!-- Stories -->
             <div class="container">
-                <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+                <div id="carouselExampleDark" class="fade carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -146,7 +146,7 @@
             </div>
             <!-- Share Your Story Form -->
             <div class="container" id="story-form">
-                <form action="#" id="shareyourstory">
+                <form action="#" id="shareyourstory" class="fade">
                     <legend>Tell us your story</legend>
                     <div class="form-group">
                         <div class="row">
@@ -175,9 +175,26 @@
                 </form>
             </div>
         </section>
-        <footer>
+
+        <!-- Scroll to top for enhanced user experience -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12 scroll">
+                    <a href="#" class="fa fa-chevron-up"></a>
+                </div>
+            </div>
+        </div>
+
+        <footer class="fade">
         </footer>
+
+        <!-- JavaScript Links -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <!-- JS Files -->
         <script src="assets/js/script.js"></script>
+        <script src="assets/js/fadeIn.js"></script>
+        <script src="assets/js/upScale.js"></script>
     </body>
 </html>
