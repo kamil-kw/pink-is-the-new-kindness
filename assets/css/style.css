@@ -103,13 +103,29 @@ body {
 
 /*------------------------------  Interactive elements */ 
 
+/*-------- Fade in on scroll */
 .fade {
   opacity: 0;
 }
 
+/*------ Scroll to top link style */
 .scroll {
   text-align: center;
 }
+
+/* ------ Scale up animation */
+.scale {
+  -webkit-transform: scale(100%);
+  transform: scale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.scale:hover {
+  -webkit-transform: scale(120%);
+  transform: scale(120%);
+}
+
 
 
 /* ------------------------------- Esteph - Media queries */
