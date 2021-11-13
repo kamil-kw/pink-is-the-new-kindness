@@ -194,7 +194,7 @@ html {
 /* ------------------------------- Esteph - Media queries */
 /* ------------------------------- for mobile screens */
 
-@media screen and (min-width: 300px) and (max-width: 767px) {
+@media screen and (min-width: 280px) and (max-width: 767px) {
   #hero-image {
     width: 100%;
     height: 30%;
@@ -247,11 +247,11 @@ html {
 
   #hero-background h1 {
     padding-top: 0;
-    font-size: 20rem;
+    font-size: 15rem;
   }
 
   #hero-background h3 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   .box {
