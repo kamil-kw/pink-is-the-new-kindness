@@ -267,6 +267,26 @@ input, textarea{
   padding-right: 0;
 }
 
+.navbar-toggler{
+  width: 47px;
+  height: 34px;
+  background-color: #DDC0C8;
+  border:none;
+}
+.navbar-toggler:hover{
+  width: 47px;
+  height: 34px;
+  background-color: #bd3d7d;
+  border:none;
+}
+.navbar-toggler .line{
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
 /* ------------------------------- Footer */
 
 footer {
