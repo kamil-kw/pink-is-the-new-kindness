@@ -223,7 +223,7 @@ look at daisy's testing documentation and [webinar](https://us02web.zoom.us/rec/
 
 ### Current
 
-<!-- current bugs -->
+The scale up transition code in JS no longer works after being merged to the main branch. The JS and css worked on testing before pushing, so it may be that there is other code in css that is overriding this.
 
 <!-- - bugOne explanation
 *notes on explanation* -->
