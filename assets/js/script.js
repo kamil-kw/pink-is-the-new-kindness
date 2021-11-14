@@ -1,5 +1,20 @@
 let sendButton = document.querySelector('#form-button');
 
+function ValidateEmail() {
+    let name = document.querySelector('#name').value;
+    let emailaddress = document.querySelector('#emailaddress').value;
+    let mailformat = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    if (emailaddress.match(mailformat)) {
+        send();
+        alert("Thanks for your sharing, " + name +" !");
+        return true;
+    } else {
+        alert("You have entered an invalid email address!");
+        document.querySelector('#emailaddress').focus();
+        return false;
+    }
+}
+
 function send() {
   let name = document.querySelector('#name').value;
   let emailaddress = document.querySelector('#emailaddress').value;
@@ -12,14 +27,8 @@ function send() {
       "emailaddress": emailaddress,
       "message": message
     },
-    dataType: "JSON",
-    success: function(response) {
-      console.log(response);
-      if(response == "Success!"){
-        alert("Thank you for your sharing, " + name + " !");
-      }
-    },
+    dataType: "JSON"
   });
 };
 
-sendButton.addEventListener('click', send);
+sendButton.addEventListener('click', ValidateEmail);
