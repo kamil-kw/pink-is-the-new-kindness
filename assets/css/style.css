@@ -130,7 +130,9 @@ html {
 /* ------------------------------- Carousel */
 
 #carousel {
-  margin-top: 15%!important;
+  margin-top: 5%!important;
+  padding: 50px;
+  background: #DDC0C8;
 }
 
 .carousel .carousel-item {
@@ -387,11 +389,13 @@ footer {
 /*------ Scroll to top link style */
 .scroll {
   text-align: center;
+  text-decoration: none;
 }
 
 .scroll a {
   color: #e15789;
   font-family: inherit;
+  text-decoration: none;
 }
 
 .scroll a:hover {
@@ -463,6 +467,7 @@ footer {
   }
   #middle-section {
     height: 2000px;
+    padding: 20px 0;
   }
 
   form h2 {
@@ -500,6 +505,10 @@ footer {
 
   .box h2 {
     font-size: 1.5rem;
+  }
+
+  #middle-section {
+    padding: 20px 0;
   }
 
   #story-form {
