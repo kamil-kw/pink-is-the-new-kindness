@@ -101,8 +101,9 @@ html {
 /* ------------------------------- Introduction */
 
 .intro {
-  padding: 50px 30px;
+  padding: 100px 40px;
   font-size: 1.2rem;
+  background-color: #DDC0C8;
 }
 
 .pinkIntro {
