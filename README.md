@@ -223,8 +223,6 @@ look at daisy's testing documentation and [webinar](https://us02web.zoom.us/rec/
 
 ### Current
 
-The scale up transition code in JS no longer works after being merged to the main branch. The JS and css worked on testing before pushing, so it may be that there is other code in css that is overriding this.
-
 <!-- - bugOne explanation
 *notes on explanation* -->
 ***
@@ -233,6 +231,32 @@ The scale up transition code in JS no longer works after being merged to the mai
 ***
 
 ### Resolved
+
+The fadein effect was built to fadein elements when the whole object was in the page, but the effect made it seem like it was taking too long to load. This has changed so its on appear rather than the whole object and the whole speed is increased. The below code was taken out: 
+
+        $(".fade").each( function() {
+            
+          let bottom_of_object = $(this).offset().top + $(this).outerHeight();
+           let bottom_of_window = $(window).scrollTop() + $(window).height();
+
+            /* If the object is completely visible in the window, fade it in */
+           if( bottom_of_window > bottom_of_object ){
+                
+              $(this).animate({'opacity':'1'}, 1000);       
+        }
+
+
+The scale transition bug was fixed after merging codes. 
+
+      $(document).ready(function() {
+          /* Enlarge effect */
+          $(".scale").hover(function() {
+              $(".scale").addClass('transition');
+
+          }, function() {
+              $(".scale").removeClass('transition');
+          });
+      });
 
 <!-- resolved bugs -->
 <!-- 1. bugOne
