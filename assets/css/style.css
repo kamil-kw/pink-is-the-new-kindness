@@ -457,9 +457,15 @@ input, textarea {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
   color: #e15789;
-
   animation: pulse 2s infinite;
 }
+
+.permahover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  color: #e15789 !important;
+}
+
 
 
 /* ----- pink change colour */
