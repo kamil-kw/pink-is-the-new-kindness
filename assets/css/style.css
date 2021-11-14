@@ -426,18 +426,42 @@ input, textarea {
 
 
 /* ------ Scale up animation */
-.scale {
+.scale,
+.scaleStory {
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 .scale:hover {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   background-color: #DBEAD0;
-} 
+}
+
+/* ------------------- Pulse hover */
+/* Adapted from https://stackoverflow.com/questions/66241951/css-pulse-animation-override-on-hover */
+
+@keyframes pulse {
+  0%, 100% {
+      transform: scale(1);
+      animation-timing-function: ease-in;
+  }
+
+  50% {
+      transform: scale(1.33);
+  }
+}
+
+.scaleStory:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  color: #e15789;
+
+  animation: pulse 2s infinite;
+}
+
 
 /* ----- pink change colour */
 
