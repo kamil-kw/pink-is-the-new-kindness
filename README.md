@@ -14,11 +14,18 @@ PINK team consisting of:
 * [Rocky Chang](https://github.com/cloki0610)
 * [Kamil Kwiatkowski](https://github.com/kamil-kw) - Team Leder, skilled in [HTML, CSS , JavaScript, Python, Java, Bootstrap]
 
+<<<<<<< HEAD
+I’m begging all of you, please test yourself don’t wait till the last moment, and always fight NEVER give up. 
+--Kamil--
+
+
+=======
 <!-- ![Multiple Device Demo](./readme-content/images/multi-device.png) -->
 
 This project is called 'PINK is A New Kindness'.
 
 ![PINK Team Banner](assets/images/readme/header.jpg)
+>>>>>>> 8031970fa566f8f4384ce805d66b67d7ef89aae0
 
 ## Live Site
 <!-- [nameOfSite](siteURL)) -->

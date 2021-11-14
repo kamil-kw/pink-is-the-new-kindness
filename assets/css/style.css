@@ -357,6 +357,7 @@ input, textarea {
   font-size: 3rem;
   text-align: center;
   letter-spacing: 8px;
+  margin-top: 5%;
 }
 
 #stories-img {
@@ -394,7 +395,7 @@ input, textarea {
 }
 
 .story-title h2 {
-  font-size: 8rem;
+  font-size: 6rem;
   font-weight: 900;
   text-align: center;
   color: #616160;
@@ -411,11 +412,12 @@ input, textarea {
   text-align: justify;
   padding-left: 8%;
   padding-right: 8%;
+  font-size: 1.30rem;
 }
 
 .story-user p {
-  font-size: 18px;
-  text-align: justify;
+  font-size: 2rem;
+  text-align: center;
   font-style: italic;
   font-weight: bold;
   padding-left: 8%;
@@ -515,7 +517,7 @@ input, textarea {
       font-size: 8rem;
       padding-top: 10rem;
       margin-bottom: 5rem;
-      letter-spacing: 10px;
+      letter-spacing: 15px;
   }
 
   #hero-background h3 {
@@ -556,6 +558,47 @@ input, textarea {
     padding: 60px 40px;
   }
 
+  /* story page */
+  .header-container h2 {
+    font-size: 5rem;
+    letter-spacing: 5px;
+    padding-top: 5rem;
+  }
+
+  .header-container h3 {
+    font-size: 1.8rem;
+    letter-spacing: 1.5px;
+    padding-top: 1%;
+  }
+
+  #stories-img {
+    height: 70%;
+  }
+
+  .header-container {
+    padding-bottom: 1%;
+    height: 90vh;
+  }
+
+  .story-title h2 {
+    font-size: 3rem;
+    letter-spacing: 5px;
+  }
+
+  .story-title h3 {
+    font-size: 2rem;
+    letter-spacing: 5px;
+    padding-bottom: 5%;
+  }
+
+  .story-body {
+    letter-spacing: 2px;
+    font-size: 1.12rem;
+  }
+
+  #form-button {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
@@ -588,6 +631,29 @@ input, textarea {
   #story-form {
     padding: 40px 20px!important;
   }
+
+  /* story page */
+  .header-container h2 {
+    font-size: 8rem;
+    letter-spacing: 40px;
+    padding-top: 5rem;
+  }
+
+  .header-container h3 {
+    font-size: 2.7rem;
+    letter-spacing: 3px;
+    padding-top: 1%
+  }
+
+  #stories-img {
+    height: 80%;
+  }
+
+  .header-container {
+    margin-bottom: 20%;
+    height: 100vh;
+  }
+
 }
 
 /* ------------------------------- for ipad and tablet screens */
@@ -615,6 +681,19 @@ input, textarea {
     margin: auto;
     width: 300px;
     height: 270px;
+  }
+
+  /* story page */
+
+  .header-container h3 {
+    margin-top: 6%;
+  }
+  .story-title  h2 {
+    font-size: 5.5rem;
+  }
+
+  .story-body {
+    font-size: 1.30rem;
   }
 
   /* ------------------------------- Tell us story form */
