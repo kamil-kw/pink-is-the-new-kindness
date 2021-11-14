@@ -53,8 +53,25 @@ Photos used can represent fruits, object etc?
 
 # Name of project
 <!-- ![Multiple Device Demo](./readme-content/images/multi-device.png) -->
+
+This project is called 'PINK is A New Kindness'
+
+    Pink
+
+    Is 
+
+    A
+
+    New 
+
+    Kindness
+
+
 ## Live Site
 <!-- [nameOfSite](siteURL)) -->
+
+The live site can be found [HERE](https://kamil-kw.github.io/pink-is-the-new-kindness/#).
+
 ## Repository
 <!-- [repoLocation](repoLocation) -->
 ***
