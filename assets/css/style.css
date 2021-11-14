@@ -50,9 +50,6 @@ html {
   .box h2 {
     font-size: 2rem;
     margin-top: 30px;
-    
-    
-    
   }
 
   .box p {
@@ -202,15 +199,9 @@ input, textarea{
   color: #EEC8E0!important;
 }
 
-
 .form-control:hover {
   border: 1px solid #bd3d7d;
 }
-
-/*.form-control:focus {
-  border-color: #EED374!important;
-  box-shadow: 0 0 0 0.25rem #EED374!important;
-}*/
 
 #form-button:hover {
   background-color: #EEC8E0;
@@ -328,6 +319,7 @@ footer {
   color: #bd3d7d;
   font-size: 3rem;
   text-align: center;
+  letter-spacing: 8px;
 }
 
 #stories-img {
@@ -342,14 +334,14 @@ footer {
   margin-right: auto;
 }
 
-
 /* ------------------------------- Stories page - user stories*/
 
 .user-story {
-  padding-top: 5%;
+  margin-top: 4%;
   width: 93.5vw;
   padding-left: 6.5vw;
   padding-bottom: 5%;
+  background-color: #F8EBF0;
 }
 
 .story-title h2 {
@@ -362,20 +354,23 @@ footer {
 .story-title h3 {
   font-size: 3rem;
   text-align: center;
+  padding-top: 2%;
   color:#bd3d7d;
 }
 
 .story-body {
-  font-size: 1rem;
-  font-weight: 400;
   text-align: justify;
   padding-left: 8%;
   padding-right: 8%;
 }
 
 .story-user p {
-  font-size: 1.5rem;
+  font-size: 18px;
+  text-align: justify;
   font-style: italic;
+  font-weight: bold;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
 
@@ -519,7 +514,6 @@ footer {
 /* ------------------------------- for ipad and tablet screens */
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
 
-  
 
   #hero-image {
     height: 50vh;
