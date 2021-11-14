@@ -255,8 +255,6 @@ look at daisy's testing documentation and [webinar](https://us02web.zoom.us/rec/
 
 ### Current
 
-The scale up transition code in JS no longer works after being merged to the main branch. The JS and css worked on testing before pushing, so it may be that there is other code in css that is overriding this.
-
 <!-- - bugOne explanation
 *notes on explanation* -->
 ***
@@ -265,6 +263,82 @@ The scale up transition code in JS no longer works after being merged to the mai
 ***
 
 ### Resolved
+
+1.	Scale JavaScript/CSS
+
+We have made a scale transition so that on hover, any element with the class 'scale' enlarges by 20% and changes background color. On testing on a separate branch, it worked but after merging with the main branch it stopped. Testing in the console showed the correct element was picked up and reviewing the code showed it was logical. Post merge we found it worked – there may have been a delay in it going through to the live site! 
+
+
+2.	Fade JavaScript 
+
+We have added a fade in on scroll. The initial code was built so that an object faded in when the whole element was in the window as per the below code:
+
+    $(document).ready(function () {
+        /* Every time the window is scrolled ... */
+        $(window).scroll(function () {
+            /* Check the location of each desired element */
+            $(".fade").each( function() {
+                
+                let bottom_of_object = $(this).offset().top + $(this).outerHeight();
+                let bottom_of_window = $(window).scrollTop() + $(window).height();
+
+                /* If the object is completely visible in the window, fade it it */
+                if( bottom_of_window > bottom_of_object ){
+                    
+                    $(this).animate({'opacity':'1'}, 1000);
+                }
+            }); 
+        });
+    }); 
+
+
+However on testing we thorught that this looked like it was loading the page too slowly and it did not give the effect we wanted. We changed this so that it fades in on enter and at a faster screen. We have gone with this code and taken out the need for the whole element to be above the bottom of the screen: 
+
+    $(document).ready(function () {
+        /* Every time the window is scrolled ... */
+        $(window).scroll(function () {
+            // Check the location of each desired element with a fade class */
+            $(".fade").each( function() {
+                // fade in
+                $(this).animate({'opacity':'1'}, 2000);
+            }); 
+        });
+    });
+
+3.	Back to Top Link 
+
+This was a typo in that the <i> element from font-awesome wasn’t copied correctly. 
+
+It was corrected from:
+
+    <div class="col-12 scroll">
+        <a href="#" class="fas fa-chevron-up">
+          Back to Top
+        </a>
+    </div>
+
+To:
+
+    <div class="col-12 scroll">
+      <a href="#"><i class="fas fa-chevron-up"></i>
+        Back to Top
+      </a>
+    </div>
+
+
+4.	Intro Section and colour change on headers
+
+When adding the introduction paragraph and image, we found that it conflicted with the landing page and pushed the h3 sub-heading out when on a desktop screen. 
+
+To counter this, we added padding to the top and edited the background-colour to match the landing page so that the transition is smooth and unnoticed as below. 
+
+    .intro {
+        padding: 100px 40px;
+        font-size: 1.2rem;
+        background-color: #DDC0C8;
+      }
+	
+
 
 <!-- resolved bugs -->
 <!-- 1. bugOne
