@@ -106,10 +106,15 @@ html {
   background-color: #DDC0C8;
 }
 
+.intro p {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 .pinkIntro {
   color: #e15789;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
 #ribbon {
