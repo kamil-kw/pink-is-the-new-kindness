@@ -18,7 +18,7 @@ html {
 /* ------------------------------- Be kind and TLC section*/
 
 #middle-section {
-  background-color: #EEC8E0;
+  background-color: #cadbd7;
   height: 750px;
   padding: 50px;
 }
@@ -32,18 +32,18 @@ html {
 }
 
 .container-middle {
-  background-color: #EEC8E0;
+  background-color: #cadbd7;
   width: 100%;
   margin-top: 3%;
  
 }
 
 .box {
-    background-color: white;
+  
     
     text-align: center;
     margin: auto;
-    width: 370px;
+    width: 380px;
     height: 275px;
 }
 
@@ -51,20 +51,53 @@ html {
     font-size: 2rem;
     margin-top: 30px;
     
+    
+    
   }
 
   .box p {
     padding: 10px;
+    text-align: justify;
   }
 
   .box i {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #bd3d7d;
+    padding-top: 10px;
   }
 
   .box a {
     color: #bd3d7d;
+    text-align: center;
   }
+
+  /*#kind-yourself {
+    background-color: #dbead0;
+  }
+
+  #kind-friends {
+    background-color: #EEC8E0;
+  }
+
+  #kind-world {
+    background-color: #dec9e2;
+  }
+
+  #fundraising {
+    background-color: #cadbd7;
+  }
+
+  #tlc {
+    background-color: #eed374;
+
+  }
+
+  #support {
+    background-color:#809acf;
+  }
+
+*
+
 
 /* ------------------------------- Carousel */
 
@@ -164,7 +197,6 @@ input, textarea{
 
 #hero-background {
   background-color: #DDC0C8;
-  margin-bottom: 10%;
   height: 100vh;
   width: 100vw;
   max-width: 100%;
@@ -192,7 +224,7 @@ input, textarea{
 }
 
 #hero-background h3 {
-  color: #bd3d7d;
+  color: #FAF8F9;
   font-size: 4rem;
   text-align: center;
   letter-spacing: 5px;
@@ -366,6 +398,7 @@ footer {
 
   .box p {
     font-size: 1rem;
+    text-align: center;
   }
   #middle-section {
     height: 2000px;
