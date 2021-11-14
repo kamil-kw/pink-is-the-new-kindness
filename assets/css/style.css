@@ -271,6 +271,16 @@ footer {
   text-align: center;
 }
 
+.scroll a {
+  color: #d2395c;
+  font-family: inherit;
+}
+
+.scroll a:hover {
+  color: #eeC8E0;
+}
+
+
 /* ------ Scale up animation */
 .scale {
   -webkit-transform: scale(1);
