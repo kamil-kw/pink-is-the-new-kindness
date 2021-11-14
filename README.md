@@ -1,52 +1,37 @@
 # 🎗️ Pink is a new kindness 🎗️
 
-**P**ink
-**I**s a
-**N**ew
-**K**indness
+## Introduction
 
-* Be kind to **yourself** – detection of early breast cancer signs, give you great chance of winning this fight. Believe in your strength!
-* Be kind to **family & friends** – they need you in their lives, and they will be there for you.
-* Be kind to **world** – Good people deserve to live and contribute to our society.
+Welcome to our project called 'PINK is A New Kindness', thanks to [Code Institute](https://codeinstitute.net/) in collaboration with [IT Labs](https://www.it-labs.com/) we were honored to take a part in this amazing event Women in Tech Nov'21 #14 who had a noble goal of Breast Cancer Awareness.
 
-## RISE with us
+As an IT Lab representative and team facilitator [Aleksandra Vinokjikj](https://github.com/alexvinokikj) who watches over the entire project.
 
-(Theme of 2021 was RISE: Rally in Supporting, Serving and Screening Everyone)
+PINK team consisting of:
 
-## Do frequent TLC (touch, look, check)
+* [Estephanie Standen](https://github.com/Esteph27) [HTML, CSS]
+* [Sophie Nagle](https://github.com/sophnagle)
+* [Dee Cooper](https://github.com/deecooper)
+* [Rocky Chang](https://github.com/cloki0610)
+* [Kamil Kwiatkowski](https://github.com/kamil-kw) - Team Leder, skilled in [HTML, CSS , JavaScript, Python, Java, Bootstrap]
 
-Get used to the feeling of your breast, this will allow you to detect the early stages of the breast cancers.
-Each breast might have a different feeling, however there are general signs, which should be alarming for you. To find out more about it click here
-
-* CLICK here would have a page where different signs are shown and explain
-* Consider adding the page for family and friends of how to support fight with cancer.
-* One page with explanation of TLC maybe connected with signs of cancer
-
- 
-
-Do not talk only about female breast cancer, rare (but possible) male could develop chest cancer too.
-
-Perhaps is good to call it on CLICK here page -> breast/ chest cancer.
-
-## Story:
-
-### I wish you were here, with your friends and family. 
-
-It was late November a rainy day when I was standing in front of your beautifully painted coffin which you paint together with your lovely nieces just a week ago. Looking back through my memories of all good times, we had together. Talking to you in my heart and asking why such strong independent women like you are here, why a world is so unfair to good people. You were always helping everyone but this time you couldn’t help yourself.
-Just a few months earlier, you told to me “I need to visit my doctor”, I did ask you why? You only told me “It’s nothing it is a small infection, no worries, I’ll be fine” unfortunately it wasn’t a small infection it was the 3rd stage of breast cancer.
-A month later you were about to start treatment, smiling because you received your wig made of your beautiful curly hairs, my heart was breaking…
-Even though you were in this stage you never gave up, you were the strongest fighter I have ever seen, fighting till the last day of your life. Still remember your words:
-*“I’m not giving up! I’m giving myself the best chance to survive, doing all I can to prolong my life”*.
-
+<<<<<<< HEAD
 I’m begging all of you, please test yourself don’t wait till the last moment, and always fight NEVER give up. 
 --Kamil--
 
 
-
-# Name of project
+=======
 <!-- ![Multiple Device Demo](./readme-content/images/multi-device.png) -->
+
+This project is called 'PINK is A New Kindness'.
+
+![PINK Team Banner](assets/images/readme/header.jpg)
+>>>>>>> 8031970fa566f8f4384ce805d66b67d7ef89aae0
+
 ## Live Site
 <!-- [nameOfSite](siteURL)) -->
+
+The live site can be found [HERE](https://kamil-kw.github.io/pink-is-the-new-kindness/#).
+
 ## Repository
 <!-- [repoLocation](repoLocation) -->
 ***
@@ -87,14 +72,22 @@ I’m begging all of you, please test yourself don’t wait till the last moment
 
 ## Objective
 
-Some text here
-<!-- objective description here -->
-
-Project created to raise BRCA awarness. 
-
-***
+As a main goal of this project is raise a Breast Cancer Awareness, provide informations to the external pages, as well to give a good word and share stories of our users with wide audience.
 
 ## Brief
+
+As a name of the team and the main theme we choose to create an acronym from a word PINK which states *PINK Is the New Kindness*:
+
+**P**ink
+**I**s the
+**N**ew
+**K**indness
+
+It's all about kindness to surrounding members of your family friends world and what the most impotent to yourself, therefore our motto is "be kind": 
+
+* Be kind to **yourself** – detection of early breast cancer signs, give you a great chance of winning this fight. Believe in your strength!
+* Be kind to **family & friends** – they need you in their lives, and they will be there for you.
+* Be kind to **world** – Good people deserve to live and contribute to our society.
 
 ### nameOfSite
 
@@ -247,8 +240,6 @@ look at daisy's testing documentation and [webinar](https://us02web.zoom.us/rec/
 
 ### Current
 
-The scale up transition code in JS no longer works after being merged to the main branch. The JS and css worked on testing before pushing, so it may be that there is other code in css that is overriding this.
-
 <!-- - bugOne explanation
 *notes on explanation* -->
 ***
@@ -257,6 +248,82 @@ The scale up transition code in JS no longer works after being merged to the mai
 ***
 
 ### Resolved
+
+1.	Scale JavaScript/CSS
+
+We have made a scale transition so that on hover, any element with the class 'scale' enlarges by 20% and changes background color. On testing on a separate branch, it worked but after merging with the main branch it stopped. Testing in the console showed the correct element was picked up and reviewing the code showed it was logical. Post merge we found it worked – there may have been a delay in it going through to the live site! 
+
+
+2.	Fade JavaScript 
+
+We have added a fade in on scroll. The initial code was built so that an object faded in when the whole element was in the window as per the below code:
+
+    $(document).ready(function () {
+        /* Every time the window is scrolled ... */
+        $(window).scroll(function () {
+            /* Check the location of each desired element */
+            $(".fade").each( function() {
+                
+                let bottom_of_object = $(this).offset().top + $(this).outerHeight();
+                let bottom_of_window = $(window).scrollTop() + $(window).height();
+
+                /* If the object is completely visible in the window, fade it it */
+                if( bottom_of_window > bottom_of_object ){
+                    
+                    $(this).animate({'opacity':'1'}, 1000);
+                }
+            }); 
+        });
+    }); 
+
+
+However on testing we thorught that this looked like it was loading the page too slowly and it did not give the effect we wanted. We changed this so that it fades in on enter and at a faster screen. We have gone with this code and taken out the need for the whole element to be above the bottom of the screen: 
+
+    $(document).ready(function () {
+        /* Every time the window is scrolled ... */
+        $(window).scroll(function () {
+            // Check the location of each desired element with a fade class */
+            $(".fade").each( function() {
+                // fade in
+                $(this).animate({'opacity':'1'}, 2000);
+            }); 
+        });
+    });
+
+3.	Back to Top Link 
+
+This was a typo in that the <i> element from font-awesome wasn’t copied correctly. 
+
+It was corrected from:
+
+    <div class="col-12 scroll">
+        <a href="#" class="fas fa-chevron-up">
+          Back to Top
+        </a>
+    </div>
+
+To:
+
+    <div class="col-12 scroll">
+      <a href="#"><i class="fas fa-chevron-up"></i>
+        Back to Top
+      </a>
+    </div>
+
+
+4.	Intro Section and colour change on headers
+
+When adding the introduction paragraph and image, we found that it conflicted with the landing page and pushed the h3 sub-heading out when on a desktop screen. 
+
+To counter this, we added padding to the top and edited the background-colour to match the landing page so that the transition is smooth and unnoticed as below. 
+
+    .intro {
+        padding: 100px 40px;
+        font-size: 1.2rem;
+        background-color: #DDC0C8;
+      }
+	
+
 
 <!-- resolved bugs -->
 <!-- 1. bugOne
