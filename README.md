@@ -42,14 +42,6 @@ I’m begging all of you, please test yourself don’t wait till the last moment
 --Kamil--
 
 
- 
-Style:
-Style should be light pink, mixed with white background.
-#ff6185 light pink
-#d2395c dark pink
-
-Photos used can represent fruits, object etc?
-
 
 # Name of project
 <!-- ![Multiple Device Demo](./readme-content/images/multi-device.png) -->
