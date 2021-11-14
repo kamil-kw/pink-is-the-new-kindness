@@ -132,7 +132,7 @@ html {
 #carousel {
   margin-top: 5%!important;
   padding: 50px;
-  background: #DDC0C8;
+  background: #DEC9E2;
 }
 
 .carousel .carousel-item {
@@ -141,6 +141,7 @@ html {
 
 .carousel .carousel-item img {
   height: 550px;
+  width: 100%;
   object-fit: cover;
 }
 
