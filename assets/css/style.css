@@ -377,11 +377,13 @@ footer {
 /*------ Scroll to top link style */
 .scroll {
   text-align: center;
+  text-decoration: none;
 }
 
 .scroll a {
   color: #e15789;
   font-family: inherit;
+  text-decoration: none;
 }
 
 .scroll a:hover {
