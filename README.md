@@ -119,6 +119,33 @@ It will collate external resources for each of these three parts (individual, fr
 
 There will also be stories shared from the community and a form that allows a user to submit their own personal experience.
 
+## UX Design (Esteph)
+
+Breast cancer, or any type of cancer, can be daunting and sometimes devastating. With this in mind, PINK needed to be a place that was warm, happy and inviting. A space where users feel welcomed but also catches their attention. Additionally, as kindness underpins the values for this project, we wanted to ensure this was reflected in our UX. We’ve achieved this through our selective use of colours, light-hearted imagery, icons and fonts. 
+
+The overall aesthetic is clean, modern and “light”. Where often finding information online about breast cancer can be overwhelming, we wanted PINK to be clean and clear for the user. A place where information isn’t in your face, but gently handed to you.
+
+#### Colour Palette:
+
+The prominent colour is pink, as pink is not only the name of the project, but also the symbol for breast cancer awareness and it was important to respect this association. Along with the colour pink, we created a custom colour palette which not only compliments the imagery throughout the website, but connotes the feeling of kindness, happiness and hope. 
+
+![colour palette](../images/colour-palette.jpg)
+
+#### Fonts:
+
+To keep within the theme and overall aesthetic, we decided for the below fonts which are used throughout the site: 
+
+Monsterrat Bold - header and subtitles
+
+Monsterrat regular - copy text 
+
+#### Imagery:
+
+We have used light-heart and tongue-and-cheek imagery throughout the site as we wanted to steer clear from any feeling of being too clinical or “serious”. Breast cancer can be a heavy topic for the user, by implementing these light-hearted images we hope to create a bit of fun for the user and lift a little bit of that weight and worry.
+
+![image example](../images-for-site/pexels-oranges.jpg)
+
+
 ### User Requirements
 
 Some example user stories which will affect the design: 
@@ -183,6 +210,11 @@ F1
 -->
 F2
 ***
+
+### Landing page:
+Being the first page the user lands on, we wanted the landing page to be welcoming as well as visually impactful to the user. We achieved this through keeping it simple yet effective with the use of our tongue-and-cheek hero image which is placed centrally across the screen. The name of the project is also placed centrally on the screen in large and bold letters to shout our name out load and proud. The slogan below the hero image also tells the user what the project name stands for clearly so the user knows what to expect. 
+
+
 
 ### Features Left to Implement
 
@@ -271,7 +303,20 @@ https://daveyjh.github.io/ci-portfolio-one-v4/
 The site is now live and operational -->
 ***
 
+## Technologies used:
+
+1. HTML
+- Markup language providing content and structure of website.
+
+2. CSS
+- Styling language providing website styles and appearance.
+
+3. Javascript
+- User interactivity and backend?
+
 ## Credits
+
+ - Images from pexel.com and unsplash.com
 
 ### Content
 <!-- - the a comes from b -->
