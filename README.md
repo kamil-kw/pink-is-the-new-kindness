@@ -1,71 +1,24 @@
 # 🎗️ Pink is a new kindness 🎗️
 
-**P**ink
-**I**s a
-**N**ew
-**K**indness
+## Introduction
 
-* Be kind to **yourself** – detection of early breast cancer signs, give you great chance of winning this fight. Believe in your strength!
-* Be kind to **family & friends** – they need you in their lives, and they will be there for you.
-* Be kind to **world** – Good people deserve to live and contribute to our society.
+Welcome to our project called 'PINK is A New Kindness', thanks to [Code Institute](https://codeinstitute.net/) in collaboration with [IT Labs](https://www.it-labs.com/) we were honored to take a part in this amazing event Women in Tech Nov'21 #14 who had a noble goal of Breast Cancer Awareness.
 
-## RISE with us
+As an IT Lab representative and team facilitator [Aleksandra Vinokjikj](https://github.com/alexvinokikj) who watches over the entire project.
 
-(Theme of 2021 was RISE: Rally in Supporting, Serving and Screening Everyone)
+PINK team consisting of:
 
-## Do frequent TLC (touch, look, check)
+* [Estephanie Standen](https://github.com/Esteph27) [HTML, CSS]
+* [Sophie Nagle](https://github.com/sophnagle)
+* [Dee Cooper](https://github.com/deecooper)
+* [Rocky Chang](https://github.com/cloki0610)
+* [Kamil Kwiatkowski](https://github.com/kamil-kw) - Team Leder, skilled in [HTML, CSS , JavaScript, Python, Java, Bootstrap]
 
-Get used to the feeling of your breast, this will allow you to detect the early stages of the breast cancers.
-Each breast might have a different feeling, however there are general signs, which should be alarming for you. To find out more about it click here
-
-* CLICK here would have a page where different signs are shown and explain
-* Consider adding the page for family and friends of how to support fight with cancer.
-* One page with explanation of TLC maybe connected with signs of cancer
-
- 
-
-Do not talk only about female breast cancer, rare (but possible) male could develop chest cancer too.
-
-Perhaps is good to call it on CLICK here page -> breast/ chest cancer.
-
-## Story:
-
-### I wish you were here, with your friends and family. 
-
-It was late November a rainy day when I was standing in front of your beautifully painted coffin which you paint together with your lovely nieces just a week ago. Looking back through my memories of all good times, we had together. Talking to you in my heart and asking why such strong independent women like you are here, why a world is so unfair to good people. You were always helping everyone but this time you couldn’t help yourself.
-Just a few months earlier, you told to me “I need to visit my doctor”, I did ask you why? You only told me “It’s nothing it is a small infection, no worries, I’ll be fine” unfortunately it wasn’t a small infection it was the 3rd stage of breast cancer.
-A month later you were about to start treatment, smiling because you received your wig made of your beautiful curly hairs, my heart was breaking…
-Even though you were in this stage you never gave up, you were the strongest fighter I have ever seen, fighting till the last day of your life. Still remember your words:
-*“I’m not giving up! I’m giving myself the best chance to survive, doing all I can to prolong my life”*.
-
-I’m begging all of you, please test yourself don’t wait till the last moment, and always fight NEVER give up. 
---Kamil--
-
-
- 
-Style:
-Style should be light pink, mixed with white background.
-#ff6185 light pink
-#d2395c dark pink
-
-Photos used can represent fruits, object etc?
-
-
-# Name of project
 <!-- ![Multiple Device Demo](./readme-content/images/multi-device.png) -->
 
-This project is called 'PINK is A New Kindness'
+This project is called 'PINK is A New Kindness'.
 
-    Pink
-
-    Is 
-
-    A
-
-    New 
-
-    Kindness
-
+![PINK Team Banner](assets/images/readme/header.jpg)
 
 ## Live Site
 <!-- [nameOfSite](siteURL)) -->
@@ -112,14 +65,22 @@ The live site can be found [HERE](https://kamil-kw.github.io/pink-is-the-new-kin
 
 ## Objective
 
-Some text here
-<!-- objective description here -->
-
-Project created to raise BRCA awarness. 
-
-***
+As a main goal of this project is raise a Breast Cancer Awareness, provide informations to the external pages, as well to give a good word and share stories of our users with wide audience.
 
 ## Brief
+
+As a name of the team and the main theme we choose to create an acronym from a word PINK which states *PINK Is the New Kindness*:
+
+**P**ink
+**I**s the
+**N**ew
+**K**indness
+
+It's all about kindness to surrounding members of your family friends world and what the most impotent to yourself, therefore our motto is "be kind": 
+
+* Be kind to **yourself** – detection of early breast cancer signs, give you a great chance of winning this fight. Believe in your strength!
+* Be kind to **family & friends** – they need you in their lives, and they will be there for you.
+* Be kind to **world** – Good people deserve to live and contribute to our society.
 
 ### nameOfSite
 
