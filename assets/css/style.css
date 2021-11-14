@@ -68,6 +68,10 @@ html {
 
 /* ------------------------------- Carousel */
 
+#carousel {
+  margin-top: 15%!important;
+}
+
 .carousel .carousel-item {
   height: 550px;
 }
@@ -96,6 +100,7 @@ form h2 {
 .form-label {
   color: #FFFFFF;
   font-size: 2rem;
+  font-weight: 100;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -121,14 +126,26 @@ input, textarea{
   color: #EEC8E0!important;
   font-size: 1rem;
 }
+
 ::-moz-placeholder {
   color: #EEC8E0!important;
 }
+
 :-ms-input-placeholder {
   color: #EEC8E0!important;
 }
+
 :-moz-placeholder {
   color: #EEC8E0!important;
+}
+
+.form-control {
+  border: 2px solid #E15789;
+}
+
+.form-control:focus {
+  border-color: #EED374!important;
+  box-shadow: 0 0 0 0.25rem #EED374!important;
 }
 
 #form-button:hover {
