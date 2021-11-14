@@ -13,6 +13,7 @@ html {
   body {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 3px;
+    
   }
 
 /* ------------------------------- Be kind and TLC section*/
@@ -24,7 +25,7 @@ html {
 }
 
 .container {
-  background-color: white;
+  background-color: #DEC9E2;
   width: 100%;
   margin: auto;
   margin-top: 3%;
@@ -297,12 +298,21 @@ input, textarea{
 
 /* ------------------------------- Footer */
 
-footer {
+#footer-container {
   width: 100%;
   height: 150px;
   background-color: #bd3d7d;
   margin-top: auto;
+  text-align: center;
       
+}
+
+#footer-container i {
+  font-size: 3rem;
+  color: #FAF8F9;
+  margin: auto;
+  padding: 2%;
+
 }
 
 
