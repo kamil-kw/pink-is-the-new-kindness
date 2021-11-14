@@ -113,6 +113,15 @@ body {
   text-align: center;
 }
 
+.scroll a {
+  color: #d2395c;
+  font-family: inherit;
+}
+
+.scroll a:hover {
+  color: #eeC8E0;
+}
+
 /* ------ Scale up animation */
 .scale {
   -webkit-transform: scale(1);
@@ -130,7 +139,12 @@ body {
 
 #hero-image h1:hover {
   color: #d2395c;
-} 
+}
+
+#hero-image h3:hover {
+  color: #d2395c;
+}
+
 
 /* ------------------------------- Esteph - Media queries */
 /* ------------------------------- for mobile screens */
