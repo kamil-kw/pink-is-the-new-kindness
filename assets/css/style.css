@@ -129,6 +129,18 @@ html {
   margin-top: 2%; 
 }
 
+/* ------------------------------- Footer */
+
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: #bd3d7d;
+  margin-top: auto;
+      
+}
+
+
+
 /* ------------------------------- Stories page welcome */
 
 #story-background {
