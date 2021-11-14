@@ -147,7 +147,7 @@ html {
 /* ---------------------------- Story Form */
 
 #story-form {
-  background-color: #EEC8E0;
+  background-color: #DBEAD0;
   padding: 40px 30px;
 }
 
@@ -202,25 +202,21 @@ input, textarea{
   color: #EEC8E0!important;
 }
 
-.form-control {
-  border: 2px solid #E15789;
-}
 
 .form-control:hover {
   border: 1px solid #bd3d7d;
 }
 
-.form-control:focus {
+/*.form-control:focus {
   border-color: #EED374!important;
   box-shadow: 0 0 0 0.25rem #EED374!important;
-}
+}*/
 
 #form-button:hover {
   background-color: #EEC8E0;
   color: #FFFFFF;
   transition: 1s;
 }
-
 
 
 /* ------------------------------- Header image */
@@ -305,30 +301,19 @@ footer {
       
 }
 
-
 /* ------------------------------- Stories page welcome */
 
 #story-background {
-  height: 100vh;
-  width: 100vw;
-  max-width: 100%;
   background-color: #DEC9E2;
 }
 
-#story-image {
-  background-image: url('../images-for-site/pexels-stories.jpg');
-  background-repeat: no-repeat;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 50%;
-  width: 71%;
-  height: 75%;
-  margin-bottom: 3rem;
-  margin-left: auto;
-  margin-right: auto;
+.header-container {
+  width: 100%;
+  height: 90rem;
+  padding-bottom: 10%;
 }
 
-#story-background .stories {
+.header-container h2 {
   font-weight: 900;
   color: #bd3d7d;
   font-size: 10rem;
@@ -336,34 +321,61 @@ footer {
   text-align: center;
   margin-left: 5%;
   padding-top: 5%;
-  padding-bottom: 2%;
+  padding-bottom: 5%;
 }
 
-#story-background h3 {
+.header-container h3 {
   color: #bd3d7d;
   font-size: 3rem;
   text-align: center;
 }
 
-/* ------------------------------- Stories page - user stories*/
+#stories-img {
+  background-image: url('../images-for-site/pexels-stories.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  width: 71%;
+  height: 75%;
+  margin-bottom: 5rem;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+
+/* ------------------------------- Stories page - user stories*/
 
 .user-story {
   padding-top: 5%;
   width: 93.5vw;
   padding-left: 6.5vw;
+  padding-bottom: 5%;
 }
-.story-title {
-  font-size: 1.2rem;
+
+.story-title h2 {
+  font-size: 8rem;
   font-weight: 900;
   text-align: center;
-  text-decoration: underline;
+  color: #FAF8F9;
+}
+
+.story-title h3 {
+  font-size: 3rem;
+  text-align: center;
+  color:#bd3d7d;
 }
 
 .story-body {
   font-size: 1rem;
   font-weight: 400;
   text-align: justify;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.story-user p {
+  font-size: 1.5rem;
+  font-style: italic;
 }
 
 
