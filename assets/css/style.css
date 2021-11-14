@@ -88,27 +88,31 @@ html {
   padding: 40px 30px;
 }
 
+
 form h2 {
   font-size: 4rem;
   text-align: center;
   font-weight: 900;
-  color: #FFFFFF;
+  color: #bd3d7d;
 }
+
 
 .form-label {
   color: #FFFFFF;
-  font-size: 2.5rem;
-  font-wight: 100;
+  font-size: 2rem;
+  font-weight: 100;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
+
 #form-button {
   background-color: #FFFFFF;
-  color: #EEC8E0;
+  color: #bd3d7d;
   font-weight: 900;
-  font-size: 18px;
+  letter-spacing: 5px;
+  font-size: 28px;
   height: 50px;
   margin-top: 20px;
   margin-bottom: 50px;
@@ -120,13 +124,17 @@ input, textarea{
 
 ::-webkit-input-placeholder {
   color: #EEC8E0!important;
+  font-size: 1rem;
 }
+
 ::-moz-placeholder {
   color: #EEC8E0!important;
 }
+
 :-ms-input-placeholder {
   color: #EEC8E0!important;
 }
+
 :-moz-placeholder {
   color: #EEC8E0!important;
 }
@@ -144,6 +152,10 @@ input, textarea{
   background-color: #EEC8E0;
   color: #FFFFFF;
   transition: 1s;
+}
+
+.form-control:hover {
+  border: 1px solid #bd3d7d;
 }
 
 /* ------------------------------- Header image */
