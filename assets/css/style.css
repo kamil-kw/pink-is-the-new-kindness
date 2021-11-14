@@ -17,25 +17,53 @@ html {
 
 /* ------------------------------- Be kind and TLC section*/
 
+#middle-section {
+  background-color: #EEC8E0;
+  height: 750px;
+  padding: 50px;
+}
+
 .container {
   background-color: white;
   width: 100%;
   margin: auto;
-  margin-top: 2%;
+  margin-top: 3%;
   
 }
 
+.container-middle {
+  background-color: #EEC8E0;
+  width: 100%;
+  margin-top: 3%;
+ 
+}
+
 .box {
-    background-color: #EEC8E0;
-    margin: 1%;
+    background-color: white;
+    
     text-align: center;
     margin: auto;
-    width: 317px;
-    height: 243px;
+    width: 370px;
+    height: 275px;
 }
 
   .box h2 {
-    font-size: 1rem;
+    font-size: 2rem;
+    margin-top: 30px;
+    
+  }
+
+  .box p {
+    padding: 10px;
+  }
+
+  .box i {
+    font-size: 1.5rem;
+    color: #bd3d7d;
+  }
+
+  .box a {
+    color: #bd3d7d;
   }
 
 /* ------------------------------- Carousel */
@@ -82,7 +110,7 @@ html {
 }
 
 #hero-background h3 {
-  color: #FAF8F9;
+  color: #bd3d7d;
   font-size: 4rem;
   text-align: center;
   letter-spacing: 5px;
@@ -211,6 +239,30 @@ html {
   #hero-background h3 {
       font-size: 3rem;
   }
+
+  .box {
+    display: block;
+    width: 400px;
+    height: 290px;
+    margin: auto;
+    margin-top: 30px;
+    
+  }
+
+  .box h2 {
+    font-size: 1.5rem;
+  }
+
+  .box p {
+    font-size: 1rem;
+  }
+
+  
+
+  #middle-section {
+    height: 2000px;
+  }
+
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
@@ -224,12 +276,16 @@ html {
 }
 
   .box {
-    background-color: #EEC8E0;
+    
     margin: 1%;
     text-align: center;
     margin: auto;
-    width: 317px;
-    height: 243px;
+    width: 225px;
+    height: 320px;
+  }
+
+  .box h2 {
+    font-size: 1.5rem;
   }
 
   #story-form {
@@ -239,6 +295,8 @@ html {
 
 /* ------------------------------- for ipad and tablet screens */
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
+
+  
 
   #hero-image {
     height: 50vh;
@@ -255,12 +313,12 @@ html {
   }
 
   .box {
-    background-color: #EEC8E0;
+    background-color: white;
     margin: 1%;
     text-align: center;
     margin: auto;
-    width: 375px;
-    height: 243px;
+    width: 300px;
+    height: 270px;
   }
 
   /* ------------------------------- Tell us story form */
