@@ -143,6 +143,10 @@ input, textarea{
   border: 2px solid #E15789;
 }
 
+.form-control:hover {
+  border: 1px solid #bd3d7d;
+}
+
 .form-control:focus {
   border-color: #EED374!important;
   box-shadow: 0 0 0 0.25rem #EED374!important;
@@ -154,9 +158,7 @@ input, textarea{
   transition: 1s;
 }
 
-.form-control:hover {
-  border: 1px solid #bd3d7d;
-}
+
 
 /* ------------------------------- Header image */
 
@@ -207,6 +209,8 @@ input, textarea{
   width: 100%;
   margin: auto;
   margin-top: 2%; 
+  padding-left: 0;
+  padding-right: 0;
 }
 
 /* ------------------------------- Footer */
@@ -220,13 +224,13 @@ footer {
 }
 
 
-
 /* ------------------------------- Stories page welcome */
 
 #story-background {
   height: 100vh;
   width: 100vw;
   max-width: 100%;
+  background-color: #DEC9E2;
 }
 
 #story-image {
@@ -245,10 +249,11 @@ footer {
 #story-background .stories {
   font-weight: 900;
   color: #bd3d7d;
-  font-size: 5rem;
-  letter-spacing: 90px;
+  font-size: 10rem;
+  letter-spacing: 52px;
   text-align: center;
   margin-left: 5%;
+  padding-top: 5%;
   padding-bottom: 2%;
 }
 
