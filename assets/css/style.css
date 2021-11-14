@@ -349,6 +349,11 @@ input, textarea {
   margin-right: auto;
 }
 
+#storyIcon {
+  text-align: center;
+  display: block;
+}
+
 /* ------------------------------- Stories page - user stories*/
 
 .user-story {
