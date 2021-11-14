@@ -326,6 +326,10 @@ input, textarea {
   padding-top: 2%;
 }
 
+.header-container h2:hover {
+  color: #fff;
+}
+
 .header-container h3 {
   color: #616160;
   font-size: 3rem;
