@@ -101,14 +101,20 @@ html {
 /* ------------------------------- Introduction */
 
 .intro {
-  padding: 50px 30px;
+  padding: 100px 40px;
   font-size: 1.2rem;
+  background-color: #DDC0C8;
+}
+
+.intro p {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .pinkIntro {
   color: #e15789;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
 #ribbon {
@@ -454,6 +460,11 @@ footer {
   #story-form {
     padding: 40px 20px!important;
   }
+
+  .intro {
+    padding: 60px 40px;
+  }
+
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
