@@ -460,6 +460,11 @@ footer {
   #story-form {
     padding: 40px 20px!important;
   }
+
+  .intro {
+    padding: 60px 40px;
+  }
+
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
