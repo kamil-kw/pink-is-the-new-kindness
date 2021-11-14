@@ -128,7 +128,7 @@ html {
 /* ------------------------------- Carousel */
 
 #carousel {
-  margin-top: 5%!important;
+ 
   padding: 50px;
   background: #DDC0C8;
 }
@@ -300,13 +300,35 @@ input, textarea {
 }
 
 
-#footer-container i {
-  font-size: 3rem;
-  color: #FAF8F9;
-  margin: auto;
+.social-networks {
+  text-align: center;
   padding: 2%;
 
 }
+
+.social-networks li {
+  display: inline;
+
+
+}
+
+
+.social-networks i {
+  font-size: 3rem;
+  color: #FAF8F9;
+  margin: auto;
+  padding: 5px;
+  
+
+}
+
+.social-networks i:hover {
+  transform: scale(1.2);
+}
+
+
+
+
 
 /* ------------------------------- Stories page welcome */
 
@@ -411,9 +433,10 @@ input, textarea {
 }
 
 .scroll a {
-  color: #e15789;
+  color: #FAF8F9;
   font-family: inherit;
   text-decoration: none;
+  margin-top: 2px;
 }
 
 .scroll a:hover {
