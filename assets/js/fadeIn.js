@@ -5,7 +5,7 @@
          // Check the location of each desired element with a fade class */
          $(".fade").each( function() {
             // fade in
-            $(this).animate({'opacity':'1'}, 1000);
+            $(this).animate({'opacity':'1'}, 2000);
         }); 
     });
  });
