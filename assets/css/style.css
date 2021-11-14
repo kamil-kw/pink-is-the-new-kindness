@@ -497,6 +497,10 @@ footer {
     padding: 20px 0;
   }
 
+  #carousel {
+    margin-top: 5%!important;
+  }
+
   #story-form {
     padding: 40px 20px!important;
   }
@@ -528,6 +532,10 @@ footer {
     margin: auto;
     width: 300px;
     height: 270px;
+  }
+
+  #carousel {
+    margin-top: 15%!important;
   }
 
   /* ------------------------------- Tell us story form */
