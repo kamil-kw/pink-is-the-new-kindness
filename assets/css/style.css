@@ -98,6 +98,28 @@ html {
 
 *
 
+/* ------------------------------- Introduction */
+
+.intro {
+  padding: 50px 30px;
+  font-size: 1.2rem;
+}
+
+.pinkIntro {
+  color: #e15789;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#ribbon {
+  display: block;
+  text-align: center;
+}
+
+#introImage {
+  height: 100%;
+  width: 100%;
+}
 
 /* ------------------------------- Carousel */
 
@@ -350,6 +372,7 @@ footer {
 .scale:hover {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
+  background-color: #DBEAD0;
 } 
 
 /* ----- pink change colour */
