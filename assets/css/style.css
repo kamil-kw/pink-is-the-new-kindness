@@ -77,6 +77,65 @@ html {
   object-fit: cover;
 }
 
+/* ---------------------------- Story Form */
+
+#story-form {
+  background-color: #EEC8E0;
+  padding: 40px 30px;
+}
+
+form h2 {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 900;
+  color: #FFFFFF;
+}
+
+.form-label {
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#form-button {
+  background-color: #FFFFFF;
+  color: #EEC8E0;
+  font-weight: 900;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+input, textarea{
+  text-align:center;
+}
+
+::-webkit-input-placeholder {
+  color: #EEC8E0!important;
+  font-weight: 600;
+}
+::-moz-placeholder {
+  color: #EEC8E0!important;
+  font-weight: 600;
+}
+:-ms-input-placeholder {
+  color: #EEC8E0!important;
+  font-weight: 600;
+}
+:-moz-placeholder {
+  color: #EEC8E0!important;
+  font-weight: 600;
+}
+
+#form-button:hover {
+  background-color: #EEC8E0;
+  color: #FFFFFF;
+  transition: 1s;
+}
 
 /* ------------------------------- Header image */
 
@@ -234,7 +293,7 @@ footer {
 /* ------------------------------- Esteph - Media queries */
 /* ------------------------------- for mobile screens */
 
-@media screen and (min-width: 300px) and (max-width: 767px) {
+@media screen and (min-width: 280px) and (max-width: 767px) {
   #hero-image {
     width: 100%;
     height: 30%;
@@ -268,13 +327,17 @@ footer {
   .box p {
     font-size: 1rem;
   }
-
-  
-
   #middle-section {
     height: 2000px;
   }
 
+  form h2 {
+    font-size: 2.5rem;
+  }
+  
+  #story-form {
+    padding: 40px 20px!important;
+  }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
@@ -317,11 +380,11 @@ footer {
 
   #hero-background h1 {
     padding-top: 0;
-    font-size: 20rem;
+    font-size: 15rem;
   }
 
   #hero-background h3 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   .box {
