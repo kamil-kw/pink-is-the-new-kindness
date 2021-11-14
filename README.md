@@ -129,7 +129,7 @@ The overall aesthetic is clean, modern and “light”. Where often finding info
 
 The prominent colour is pink, as pink is not only the name of the project, but also the symbol for breast cancer awareness and it was important to respect this association. Along with the colour pink, we created a custom colour palette which not only compliments the imagery throughout the website, but connotes the feeling of kindness, happiness and hope. 
 
-![colour palette](../images/colour-palette.jpg)
+![colour palette](assets/images/readme/colour-palette.jpg)
 
 #### Fonts:
 
@@ -143,7 +143,7 @@ Monsterrat regular - copy text
 
 We have used light-heart and tongue-and-cheek imagery throughout the site as we wanted to steer clear from any feeling of being too clinical or “serious”. Breast cancer can be a heavy topic for the user, by implementing these light-hearted images we hope to create a bit of fun for the user and lift a little bit of that weight and worry.
 
-![image example](../images-for-site/pexels-oranges.jpg)
+![image example](assets/images-for-site/pexels-oranges.jpg)
 
 
 ### User Requirements
