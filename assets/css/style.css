@@ -18,7 +18,7 @@ html {
 /* ------------------------------- Be kind and TLC section*/
 
 #middle-section {
-  background-color: #EEC8E0;
+  background-color: #cadbd7;
   height: 750px;
   padding: 50px;
 }
@@ -32,18 +32,18 @@ html {
 }
 
 .container-middle {
-  background-color: #EEC8E0;
+  background-color: #cadbd7;
   width: 100%;
   margin-top: 3%;
  
 }
 
 .box {
-    background-color: white;
+  
     
     text-align: center;
     margin: auto;
-    width: 370px;
+    width: 380px;
     height: 275px;
 }
 
@@ -51,20 +51,81 @@ html {
     font-size: 2rem;
     margin-top: 30px;
     
+    
+    
   }
 
   .box p {
     padding: 10px;
+    text-align: justify;
   }
 
   .box i {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #bd3d7d;
+    padding-top: 10px;
   }
 
   .box a {
     color: #bd3d7d;
+    text-align: center;
   }
+
+  /*#kind-yourself {
+    background-color: #dbead0;
+  }
+
+  #kind-friends {
+    background-color: #EEC8E0;
+  }
+
+  #kind-world {
+    background-color: #dec9e2;
+  }
+
+  #fundraising {
+    background-color: #cadbd7;
+  }
+
+  #tlc {
+    background-color: #eed374;
+
+  }
+
+  #support {
+    background-color:#809acf;
+  }
+
+*
+
+/* ------------------------------- Introduction */
+
+.intro {
+  padding: 100px 40px;
+  font-size: 1.2rem;
+  background-color: #DDC0C8;
+}
+
+.intro p {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.pinkIntro {
+  color: #e15789;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+#ribbon {
+  display: block;
+  text-align: center;
+}
+
+#introImage {
+  height: 100%;
+  width: 100%;
+}
 
 /* ------------------------------- Carousel */
 
@@ -143,6 +204,10 @@ input, textarea{
   border: 2px solid #E15789;
 }
 
+.form-control:hover {
+  border: 1px solid #bd3d7d;
+}
+
 .form-control:focus {
   border-color: #EED374!important;
   box-shadow: 0 0 0 0.25rem #EED374!important;
@@ -154,15 +219,12 @@ input, textarea{
   transition: 1s;
 }
 
-.form-control:hover {
-  border: 1px solid #bd3d7d;
-}
+
 
 /* ------------------------------- Header image */
 
 #hero-background {
   background-color: #DDC0C8;
-  margin-bottom: 10%;
   height: 100vh;
   width: 100vw;
   max-width: 100%;
@@ -190,7 +252,7 @@ input, textarea{
 }
 
 #hero-background h3 {
-  color: #bd3d7d;
+  color: #FAF8F9;
   font-size: 4rem;
   text-align: center;
   letter-spacing: 5px;
@@ -207,6 +269,28 @@ input, textarea{
   width: 100%;
   margin: auto;
   margin-top: 2%; 
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-toggler{
+  width: 47px;
+  height: 34px;
+  background-color: #DDC0C8;
+  border:none;
+}
+.navbar-toggler:hover{
+  width: 47px;
+  height: 34px;
+  background-color: #bd3d7d;
+  border:none;
+}
+.navbar-toggler .line{
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 5px;
 }
 
 /* ------------------------------- Footer */
@@ -220,13 +304,13 @@ footer {
 }
 
 
-
 /* ------------------------------- Stories page welcome */
 
 #story-background {
   height: 100vh;
   width: 100vw;
   max-width: 100%;
+  background-color: #DEC9E2;
 }
 
 #story-image {
@@ -245,10 +329,11 @@ footer {
 #story-background .stories {
   font-weight: 900;
   color: #bd3d7d;
-  font-size: 5rem;
-  letter-spacing: 90px;
+  font-size: 10rem;
+  letter-spacing: 52px;
   text-align: center;
   margin-left: 5%;
+  padding-top: 5%;
   padding-bottom: 2%;
 }
 
@@ -313,15 +398,16 @@ footer {
 .scale:hover {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
+  background-color: #DBEAD0;
 } 
 
 /* ----- pink change colour */
 
-#hero-image h1:hover {
+#hero-background h1:hover {
   color: #e15789;
 } 
 
-#hero-image h3:hover {
+#hero-background h3:hover {
   color: #e15789;
 }
 
@@ -361,6 +447,7 @@ footer {
 
   .box p {
     font-size: 1rem;
+    text-align: center;
   }
   #middle-section {
     height: 2000px;
@@ -373,6 +460,11 @@ footer {
   #story-form {
     padding: 40px 20px!important;
   }
+
+  .intro {
+    padding: 60px 40px;
+  }
+
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
