@@ -128,7 +128,7 @@ html {
 /* ------------------------------- Carousel */
 
 #carousel {
-  margin-top: 5%!important;
+ 
   padding: 50px;
   background: #DDC0C8;
 }
@@ -295,13 +295,35 @@ input, textarea {
 }
 
 
-#footer-container i {
-  font-size: 3rem;
-  color: #FAF8F9;
-  margin: auto;
+.social-networks {
+  text-align: center;
   padding: 2%;
 
 }
+
+.social-networks li {
+  display: inline;
+
+
+}
+
+
+.social-networks i {
+  font-size: 3rem;
+  color: #FAF8F9;
+  margin: auto;
+  padding: 5px;
+  
+
+}
+
+.social-networks i:hover {
+  transform: scale(1.2);
+}
+
+
+
+
 
 /* ------------------------------- Stories page welcome */
 
@@ -326,6 +348,10 @@ input, textarea {
   padding-top: 2%;
 }
 
+.header-container h2:hover {
+  color: #fff;
+}
+
 .header-container h3 {
   color: #616160;
   font-size: 3rem;
@@ -344,6 +370,11 @@ input, textarea {
   margin-bottom: 4%;
   margin-left: auto;
   margin-right: auto;
+}
+
+#storyIcon {
+  text-align: center;
+  display: block;
 }
 
 /* ------------------------------- Stories page - user stories*/
@@ -408,9 +439,10 @@ input, textarea {
 }
 
 .scroll a {
-  color: #e15789;
+  color: #FAF8F9;
   font-family: inherit;
   text-decoration: none;
+  margin-top: 2px;
 }
 
 .scroll a:hover {
@@ -422,15 +454,44 @@ input, textarea {
 .scale {
   -webkit-transform: scale(1);
   transform: scale(1);
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 .scale:hover {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
   background-color: #DBEAD0;
-} 
+}
+
+/* ------------------- Pulse hover */
+/* Adapted from https://stackoverflow.com/questions/66241951/css-pulse-animation-override-on-hover */
+
+@keyframes pulse {
+  0%, 100% {
+      transform: scale(1);
+      animation-timing-function: ease-in;
+  }
+
+  50% {
+      transform: scale(1.33);
+  }
+}
+
+.scaleStory:hover {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  color: #e15789;
+  animation: pulse 2s infinite;
+}
+
+.permahover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  color: #e15789 !important;
+}
+
+
 
 /* ----- pink change colour */
 

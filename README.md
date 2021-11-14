@@ -79,11 +79,14 @@ As a main goal of this project is raise a Breast Cancer Awareness, provide infor
 As a name of the team and the main theme we choose to create an acronym from a word PINK which states *PINK Is the New Kindness*:
 
 **P**ink
+
 **I**s the
+
 **N**ew
+
 **K**indness
 
-It's all about kindness to surrounding members of your family friends world and what the most impotent to yourself, therefore our motto is "be kind": 
+It's all about kindness to surrounding members of your family friends world and what the most important to yourself, therefore our motto is "be kind": 
 
 * Be kind to **yourself** – detection of early breast cancer signs, give you a great chance of winning this fight. Believe in your strength!
 * Be kind to **family & friends** – they need you in their lives, and they will be there for you.
@@ -157,27 +160,8 @@ These are the initial wireframes from our initial project mind-map and scoping. 
 
 ![Wireframes](assets/images/readme/wireframes.png)
 
-<!-- Photos *See [here]() for other device types* -->
-***
-
-#### Colour Scheme
-
-<!-- colour scheme, remember to contrast check!!! -->
-***
-
-#### Typography
-
-<!-- typography -->
-***
-
-#### Imagery
-
-
-
-<!-- imagery -->
-***
-
 ## Features
+
 
 ### Existing Features
 
@@ -214,11 +198,39 @@ Being the first page the user lands on, we wanted the landing page to be welcomi
 
 ## Technologies Used
 
-<!-- tech used -->
-<!-- - *[techNameOne](techURL)*
-       - Description -->
-<!-- - *[techNameTwo](techURL)*
-       - Description -->
+### **During my page creation journey I did use:**
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML)
+    * Current project uses HyperText Markup Language.
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+    * Current project uses Cascading Style Sheets.
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+    * To provide animation and API conection
+* [Chrome](https://www.google.com/intl/en_uk/chrome/)
+    * Chrome dev tool used to debug and test code while building
+* [Balsamiq](https://www.figma.com/)
+    * To create wireframes during design
+* [Google Fonts](https://fonts.google.com/)
+    * Used as a source of Poppins font
+* [Font Awsome](https://fontawesome.com/)
+    * To provide icons to page
+* [Github](http://github.com)
+    * For storing project code written in gitpod
+* [W3C Markup](https://validator.w3.org/)
+    * Validation tool to validate the HTML code and CSS style used in the project.
+* [Jigsaw](https://jigsaw.w3.org/) 
+    * Validation tool to validate the Javascript code style.
+* [W3School](https://www.w3schools.com/)
+    * For problem solving and code searching
+* [Am I responsive design](http://ami.responsivedesign.is/)
+    * To test responsiveness in end product and create readme screenshots
+* [Beautifier - Free Formater](https://www.freeformatter.com/html-formatter.html) 
+    * Used to improve HTML and CSS code presentation
+* [Google API]()
+    * 
+
+
+[Back to Table Of Content](#tableOfContents)
 
 ## Testing
 

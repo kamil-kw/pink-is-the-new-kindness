@@ -50,14 +50,18 @@
            <!-- Story image - Header -->
           <div class="header-container">
             <h2>STORIES</h2>
-            <div id="stories-img" class="img-fluid"></div>
-            <h3>Because we are in it together</h3>
+
+            <div id="stories-img"></div>
+            <h3 class=subHeader>Because we are in it together</h3>
+            <div id="storyIcon">
+                <i class="fas fa-heart pinkIntro"></i><i class="far fa-smile pinkIntro"></i>
+            </div>
           </div>
           
             <!-- User stories -->
             <div class="user-story">
               <!-- Kay's Story -->
-              <div class="user-story-box">
+              <div class="user-story-box fade">
                 <div class="story-title">
                   <h2>Kay's story</h2>
                   <h3><i>"Thankfully I was discovered in time to treat it"</i></h3>
@@ -85,7 +89,7 @@
              </div>
 
                 <!-- Nora Carroll story -->
-            <div class="user-story-box">
+            <div class="user-story-box fade">
                 <div class="story-title">
                     <h2>Nora's Story</h2>
                     <h3><i>"Their love and care keep me smiling"</i></h3>
@@ -131,7 +135,7 @@
             </div>
 
                 <!-- Kamil story -->
-            <div class="user-story-box">
+            <div class="user-story-box fade">
                 <div class="story-title">
                     <h2>Kamil's Story</h2>
                     <h3><i>"I wish you were here, with your friends and family"</i></h3>
@@ -170,7 +174,7 @@
             <!-- Share Your Story Form -->
             <div class="container" id="story-form">
               <form id="shareyourstory" class="fade">
-                    <h2>SHARE YOUR STORY</h2>
+                    <h2 class="scaleStory">SHARE YOUR STORY</h2>
                     <div class="form-group">
                         <div class="row">
                             <label for="name"  class="form-label">NAME</label>
@@ -239,22 +243,37 @@
               </button>
             </div>
         </div>
-  
-            <!-- Scroll to top for enhanced user experience -->
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 scroll">
-                        <a href="#"><i class="fas fa-chevron-up"></i>
-                            Back to Top</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <footer id="footer-container">
-      
-         <i class="fab fa-facebook-f"></i>
-         <i class="fab fa-twitter"></i>    
-        </footer>
+
+        <!--Footer Area-->
+ <footer id="footer-container">
+    <!-- Scroll to top for enhanced user experience -->   
+     
+ <div class="row">
+     <div class="col-12 scroll">
+         <a href="#"><i class="fas fa-chevron-up"></i>
+             Back to Top</a>
+     
+ </div>
+</div>
+
+<div class="social-networks">
+ <ul>
+<li> 
+ <a href="https://www.facebook.com/Pink-Is-The-New-Kindness-113142837841631/?ref=pages_you_manage" 
+ target="_blank" aria-label="Link to Prink Facebook open in a new tab"><i class="fab fa-facebook-f"></i></a>
+</li>
+
+<li>
+  <a href="https://twitter.com/PINKawareness35" 
+target="_blank" aria-label="Link to Pink Twitter page opens in a new tab"><i class="fab fa-twitter"></i></a>
+</li>
+
+ </ul>
+</div>   
+</footer>
+
+
+ 
         <!-- JavaScript Links -->
         <script src="https://kit.fontawesome.com/8d6fddefb6.js" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
@@ -264,5 +283,6 @@
         <script src="../js/script.js"></script>
         <script src="../js/fadeIn.js"></script>
         <script src="../js/upScale.js"></script>
+        <script src="../js/permahover.js"></script>
     </body>
 </html>
