@@ -130,7 +130,9 @@ html {
 /* ------------------------------- Carousel */
 
 #carousel {
-  margin-top: 15%!important;
+  margin-top: 5%!important;
+  padding: 50px;
+  background: #DDC0C8;
 }
 
 .carousel .carousel-item {
@@ -489,6 +491,10 @@ footer {
 
   .box h2 {
     font-size: 1.5rem;
+  }
+
+  #middle-section {
+    padding: 20px 0;
   }
 
   #story-form {
