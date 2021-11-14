@@ -271,6 +271,16 @@ footer {
   text-align: center;
 }
 
+.scroll a {
+  color: #e15789;
+  font-family: inherit;
+}
+
+.scroll a:hover {
+  color: #eeC8E0;
+}
+
+
 /* ------ Scale up animation */
 .scale {
   -webkit-transform: scale(1);
@@ -287,8 +297,12 @@ footer {
 /* ----- pink change colour */
 
 #hero-image h1:hover {
-  color: #d2395c;
+  color: #e15789;
 } 
+
+#hero-image h3:hover {
+  color: #e15789;
+}
 
 /* ------------------------------- Esteph - Media queries */
 /* ------------------------------- for mobile screens */
