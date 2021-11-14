@@ -54,7 +54,7 @@
         <section>
             <!-- Story image - Header -->
             <div id="story-background">
-                <h1>STORIES</h1>
+                <h2 class="stories" >STORIES</h2>
                 <div id="story-image"  class="img-fluid"></div>
                 <h3>Because we are in it together</h3>
             </div>
@@ -199,9 +199,9 @@
             </div>
 
              <!-- Share Your Story Form -->
-            <div class="container" id="story-form">
-                <form action="#" id="shareyourstory" class="fade">
-                    <legend>Tell us your story</legend>
+             <div class="container" id="story-form">
+                <form onsubmit="return sendMail(this);" id="shareyourstory" class="fade">
+                    <h2>Tell us your story</h2>
                     <div class="form-group">
                         <div class="row">
                             <label for="name">Name:</label>

@@ -181,7 +181,7 @@ input, textarea{
   margin-right: auto;
 }
 
-#story-background h1 {
+#story-background .stories {
   font-weight: 900;
   color: #bd3d7d;
   font-size: 5rem;
@@ -233,15 +233,15 @@ input, textarea{
 
 /* ------ Scale up animation */
 .scale {
-  -webkit-transform: scale(100%);
-  transform: scale(100%);
+  -webkit-transform: scale(1);
+  transform: scale(1);
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
 }
 
 .scale:hover {
-  -webkit-transform: scale(120%);
-  transform: scale(120%);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
 } 
 
 /* ----- pink change colour */
