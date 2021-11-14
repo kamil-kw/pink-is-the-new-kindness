@@ -377,11 +377,11 @@ footer {
 
 /* ----- pink change colour */
 
-#hero-image h1:hover {
+#hero-background h1:hover {
   color: #e15789;
 } 
 
-#hero-image h3:hover {
+#hero-background h3:hover {
   color: #e15789;
 }
 
