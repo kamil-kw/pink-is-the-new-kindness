@@ -16,7 +16,7 @@ function send() {
     success: function(response) {
       console.log(response);
       if(response == "Success!"){
-        alert("Success!");
+        alert("Thank you for your sharing, " + name + " !");
       }
     },
   });
