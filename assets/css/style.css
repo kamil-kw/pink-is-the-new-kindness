@@ -142,6 +142,11 @@ html {
   object-fit: cover;
 }
 
+#stories h3 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
 /* ---------------------------- Story Form */
 
 #story-form {
