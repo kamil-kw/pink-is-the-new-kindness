@@ -1,36 +1,35 @@
+![PINK Team Banner](assets/images/readme/header.jpg)
+
 # 🎗️ Pink is a new kindness 🎗️
 
 ## Introduction
 
-Welcome to our project called 'PINK is A New Kindness', thanks to [Code Institute](https://codeinstitute.net/) in collaboration with [IT Labs](https://www.it-labs.com/) we were honored to take a part in this amazing event Women in Tech Nov'21 #14 who had a noble goal of Breast Cancer Awareness.
+Welcome to our project called 'PINK is the New Kindness'.
 
-As an IT Lab representative and team facilitator [Aleksandra Vinokjikj](https://github.com/alexvinokikj) who watches over the entire project.
+Thanks to the [Code Institute](https://codeinstitute.net/) and [IT Labs](https://www.it-labs.com/), we were honored to take a part in this amazing  Women in Tech Nov'21 #14 collaboration to promote Breast Cancer Awareness. A noble cause we were proud to be part of. 
 
-PINK team consisting of:
+Also a big thank you to IT Lab representative and team facilitator, [Aleksandra Vinokjikj](https://github.com/alexvinokikj) who watched over the entire project and guided us along the way.
 
-* [Estephanie Standen](https://github.com/Esteph27) [HTML, CSS]
+We hope you like this project as much as we enjoyed building it! 
+
+We welcome you to step into our world of Kindness. 
+
+## The Team
+
+PINK team memebers:
+
+* [Estephanie Standen](https://github.com/Esteph27) [HTML, CSS, JavaScript, Python]
 * [Sophie Nagle](https://github.com/sophnagle)
 * [Dee Cooper](https://github.com/deecooper)
 * [Rocky Chang](https://github.com/cloki0610)
 * [Kamil Kwiatkowski](https://github.com/kamil-kw) - Team Leder, skilled in [HTML, CSS , JavaScript, Python, Java, Bootstrap]
 
-<<<<<<< HEAD
-I’m begging all of you, please test yourself don’t wait till the last moment, and always fight NEVER give up. 
---Kamil--
-
-
-=======
-<!-- ![Multiple Device Demo](./readme-content/images/multi-device.png) -->
-
-This project is called 'PINK is A New Kindness'.
-
-![PINK Team Banner](assets/images/readme/header.jpg)
->>>>>>> 8031970fa566f8f4384ce805d66b67d7ef89aae0
-
 ## Live Site
 <!-- [nameOfSite](siteURL)) -->
 
 The live site can be found [HERE](https://kamil-kw.github.io/pink-is-the-new-kindness/#).
+
+<!-- ![Multiple Device Demo](./readme-content/images/multi-device.png) -->
 
 ## Repository
 <!-- [repoLocation](repoLocation) -->
@@ -70,13 +69,13 @@ The live site can be found [HERE](https://kamil-kw.github.io/pink-is-the-new-kin
 
 ***
 
-## Objective
+## Breif
 
-As a main goal of this project is raise a Breast Cancer Awareness, provide informations to the external pages, as well to give a good word and share stories of our users with wide audience.
+The goal for this event was to raise Breast Cancer Awareness focusing on the following; providing helpful information and resources to the user relating to Breast Cancer, offer tips and guidance on how to detect signs early, and share personal stories to raise awareness. 
 
-## Brief
+## PINK - Concept
 
-As a name of the team and the main theme we choose to create an acronym from a word PINK which states *PINK Is the New Kindness*:
+As a name for the team and in keeping with the breif, we chose to create an acronym from the word PINK and came up with; *PINK Is the New Kindness* where Kindness underpins the values and aim of our project:
 
 **P**ink
 
@@ -86,28 +85,34 @@ As a name of the team and the main theme we choose to create an acronym from a w
 
 **K**indness
 
-It's all about kindness to surrounding members of your family friends world and what the most important to yourself, therefore our motto is "be kind": 
+It's all about kindness towards surrounding members of family and friends, the world around you, and most importanlty, yourself. Therefore our motto is "be kind":
 
 * Be kind to **yourself** – detection of early breast cancer signs, give you a great chance of winning this fight. Believe in your strength!
 * Be kind to **family & friends** – they need you in their lives, and they will be there for you.
 * Be kind to **world** – Good people deserve to live and contribute to our society.
 
-### nameOfSite
-
-<!-- brief description of goals and requirements -->
-***
-
-## UX Design
-
-User Experience Design
-
 The goal of this website is to provide resources for users on how they can best support themselves, their friends and family, and the wider community, who have been affected by Breast cancer.
 
-It will collate external resources for each of these three parts (individual, friends/family, world) so the user can easily find information depending on their personal situation. 
+It contains a collection of external resources for each of these three parts (individual, friends/family, world) so the user can easily find information depending on their personal needs and circumstances. 
 
-There will also be stories shared from the community and a form that allows a user to submit their own personal experience.
+There are also real-life suer stories shared from the community and a form that allows a user to submit and share their own personal experiences with Breast Cancer. 
 
-## UX Design (Esteph)
+
+## Wireframes
+
+These are the initial wireframes from our initial project mind-map and scoping:
+
+![Wireframes](assets/images/readme/wireframes.png)
+
+Initial ideas for mobile phone layout:
+
+![Wireframes](assets/images/readme/mobile-mockup-1.png)
+![Wireframes](assets/images/readme/mobile-mockup-2.png)
+![Wireframes](assets/images/readme/mobile-mockup-3.png) 
+
+
+
+## UX Design
 
 Breast cancer, or any type of cancer, can be daunting and sometimes devastating. With this in mind, PINK needed to be a place that was warm, happy and inviting. A space where users feel welcomed but also catches their attention. Additionally, as kindness underpins the values for this project, we wanted to ensure this was reflected in our UX. We’ve achieved this through our selective use of colours, light-hearted imagery, icons and fonts. 
 
@@ -136,12 +141,13 @@ We have used light-heart and tongue-and-cheek imagery throughout the site as we 
 
 ### User Requirements
 
-Some example user stories which will affect the design: 
+PINK is a platform for everyone. From the person who has Breast cancer, to the person who has a loved one with Breast cancer, to the normal person who just wants to support and raise awareness. With this in mind there are 3 main users, here are some user stories:
 
-* I want to educate myself and understand how and what I should check myself for
+* I want to educate myself and understand how and what I should check for when looking out for potential signs of Breast Cancer
 * I want to learn how I can support friends and family that are going through a bereavement
 * I want to find out how I can help someone going through a diagnosis or treatment
 * I want to learn how I can support myself through a bereavement
+* I wnat to leanring how I can support myself through Breast cancer diagnosis 
 * I want to find out how I can help the wider reasearch of cancer treatments and preventative action
 * I want to find ideas on how I can raise money for cancer charities
 * I want to read stories of those with similar experiences
@@ -150,40 +156,35 @@ Some example user stories which will affect the design:
 <!-- user stories here -->
 ***
 
-### Initial Concept
-
-<!-- concept here -->
-
-#### Wireframes
-
-These are the initial wireframes from our initial project mind-map and scoping. They are subject to change as the project develops. 
-
-![Wireframes](assets/images/readme/wireframes.png)
-
 ## Features
 
-
 ### Existing Features
-
-<!-- - Feature 1 - allows users X to achieve Y, by having them fill out Z -->
-<!-- 1. feature1
->*"User... **story quote**"*
-- *explanation*-->
-F1
-***
-<!-- - Feature 2 - allows users X to achieve Y, by having them fill out Z -->
-<!-- 1. feature2
->*"User... **story quote**"*
-- *explanation*
-  ![imgName](imgURL)
--->
-F2
-***
 
 ### Landing page:
 Being the first page the user lands on, we wanted the landing page to be welcoming as well as visually impactful to the user. We achieved this through keeping it simple yet effective with the use of our tongue-and-cheek hero image which is placed centrally across the screen. The name of the project is also placed centrally on the screen in large and bold letters to shout our name out load and proud. The slogan below the hero image also tells the user what the project name stands for clearly so the user knows what to expect. 
 
+### Stories page (Esteph):
 
+### Nav bar (Kamil):
+
+### Kindness section (Dee):
+
+### Information section (Dee):
+
+### Carousel (Kamil/Rocky):
+
+### Story contact form (Kamil/Rocky):
+
+### Footer (Dee):
+
+### Hover scale/zoom ins (Sophie):
+
+### Scroll back to top (Sophie):
+
+### Fav icon (Kamil):
+
+
+<!--add remaining features below: -->
 
 ### Features Left to Implement
 
@@ -250,16 +251,7 @@ look at daisy's testing documentation and [webinar](https://us02web.zoom.us/rec/
 
 ## Bugs
 
-### Current
-
-<!-- - bugOne explanation
-*notes on explanation* -->
-***
-<!-- - bugTwo explanation
-*notes on explanation* -->
-***
-
-### Resolved
+### Resolved Bugs 
 
 1.	Scale JavaScript/CSS
 
@@ -334,18 +326,10 @@ To counter this, we added padding to the top and edited the background-colour to
         font-size: 1.2rem;
         background-color: #DDC0C8;
       }
+
+### Unfixed Bugs
+<!--write here is any unfixed bugs-->
 	
-
-
-<!-- resolved bugs -->
-<!-- 1. bugOne
-![bugOneImg](bugOneImgURL)
-*Commit - **[sha](commit link with highlighted lines)** - explanation of fix* -->
-***
-<!-- 1. bugTwo
-![bugTwoImg](bugTwoImgURL)
-*Commit - **[sha](commit link with highlighted lines)** - explanation of fix* -->
-***
 
 ## Development
 
@@ -383,11 +367,29 @@ The site is now live and operational -->
 - Styling language providing website styles and appearance.
 
 3. Javascript
-- User interactivity and backend?
+- User interactivity 
+
+
+## Validation:
+
+1. W3C HTML 
+- HTML code passed with no errors
+- CSS code passed with no errors
+
+2. Jigsaw
+- JavaScript passed with no erros
+
 
 ## Credits
 
- - Images from pexel.com and unsplash.com
+* Images from pexel.com and unsplash.com
+
+* Favicon for fav icon
+
+* Google Fonts for fonts
+
+* Font Awesome for icons
+
 
 ### Content
 <!-- - the a comes from b -->
@@ -398,6 +400,9 @@ The site is now live and operational -->
 ### Acknowledgements
 <!-- - acknowledge a, found at [b](bURL), for c -->
 <!-- - acknowledge d, found at [e](eURL), for f -->
+* Code Institue for hosting the event
+* IT Labs for hosting the event 
+* [Aleksandra Vinokjikj](https://github.com/alexvinokikj) for being the team facilitator 
 ***
 
 ### Personal Development
