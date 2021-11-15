@@ -183,10 +183,7 @@ Below the form we have included a caoursell with heart warming images and quotes
 ### Nav bar:
 Our Nav bar was built based on Bootstrap frameworks with additional amendments to edit the top of original code to remove long top bar and change color of this tab to pink so will complement to the overall design of the page, in the latest stage hover added to improve UX and interactivity of this feature.
 
-This section gives users information about the three themes of kindness that we have based our website on. Be kind to yourself, friends, family and the world. 
-Be kind to yourself and check yourself on a regular basis. Be kind to friends and family as they are also going through this with you. We understand that friends and families of those who have been diganosed with breast cancer often find it diffcult. We provided a link to Breast Cancer Now which gives people information about how to support someone with breast cancer. Be kind to the world. We are aware that having breast cancer can have a negative impact on everything in your life. There are ways to help your quality of life. We provided a link to Susan G Komen about how people with breast cancer can improve their quality of life. Good people deserve to live and contribute to our society.
-
-![image example](assets/images/readme/be-kind-screenshot.jpg)
+one long bar from left to right, that has been removed and the hambuger bars have been left
 
 Navbar includes two links Home and Stories both will show highlights once active.
 
@@ -195,7 +192,6 @@ This section gives users information about the three themes of kindness that we 
 Be kind to yourself and check yourself on a regular basis. Be kind to friends and family as they are also going through this with you. We understand that friends and families of those who have been diganosed with breast cancer often find it diffcult. We provided a link to Breast Cancer Now which gives people information about how to support someone with breast cancer. Be kind to the world. We are aware that having breast cancer can have a negative impact on everything in your life. There are ways to help your quality of life. We provided a link to Susan G Komen about how people with breast cancer can improve their quality of life. Good people deserve to live and contribute to our society.
 
 ![image example](assets/images/readme/be-kind-screenshot.JPG)
-
 
 ### Carousel (Rocky):
 
