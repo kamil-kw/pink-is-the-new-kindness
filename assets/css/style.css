@@ -605,7 +605,8 @@ textarea {
 
 	.user-story {
 		margin-top: 60px;
-  }
+  	}
+	  
 	.scale {
 		-webkit-transform: scale(1);
 		transform: scale(1);

@@ -171,7 +171,7 @@ The name of the project is placed centrally on the screen in large and bold lett
 The hover over features changes the font and slogan colours to pink when the user hovers of them. This feature was added to create an element of fun for the user experierence.
 
 ### Introdution section:
-This section explains to the user what our platform is about. It outlines what they can expect to find, what they can do and provides an overall introduction to PINK. We placed it right under the hero image section so that the user knows straight away what they're looking into to improve their exeprience. 
+This section explains to the user what our platform is about. It outlines what they can expect to find, what they can do and provides an overall introduction to PINK. We placed it right under the hero image section so that the user knows straight away what they're looking into to improve their exeprience. An image is used to break up the page on larger screens and to add difference on a scroll on smaller screens. The image is in keeping with our light-hearted, welcoming and friendly aesthetic. We have also inclded a pink ribbon icon as this is the representation of breast cancer charities and have made the platform name bold and in pink.
 
 ### Stories page:
 This page aims to provide further community support and raise awareness by sharing with the user real-life stories from the community. The user is also invited to share their personal experience with Breast cancer by using the from at the bottom of the page.
