@@ -160,19 +160,22 @@ textarea {
 
 ::-webkit-input-placeholder {
 	color: #616160!important;
-	font-size: 1rem;
+	font-size: 1.7rem;
 }
 
 ::-moz-placeholder {
-	color: #EEC8E0!important;
+	color: #616160!important;
+	font-size: 1.7rem;
 }
 
 :-ms-input-placeholder {
-	color: #EEC8E0!important;
+	color: #616160!important;
+	font-size: 1.7rem;
 }
 
 :-moz-placeholder {
-	color: #EEC8E0!important;
+	color: #616160!important;
+	font-size: 1.7rem;
 }
 
 .form-control:hover {
@@ -394,6 +397,11 @@ textarea {
 	padding-right: 8%;
 }
 
+/* ----------------------------- Stories page - stories carousel*/
+#stories-carousel {
+	margin-bottom: 5%;
+}
+
 
 /*------------------------------  Sophie - Interactive elements */
 
@@ -560,7 +568,23 @@ textarea {
 		font-size: 1.12rem;
 	}
 	#form-button {
-		font-size: 2rem;
+		font-size: 1.4rem;
+	}
+
+	::-webkit-input-placeholder {
+		font-size: 1.5rem;
+	}
+	
+	::-moz-placeholder {
+		font-size: 1.5rem;
+	}
+	
+	:-ms-input-placeholder {
+		font-size: 1.5rem;
+	}
+	
+	:-moz-placeholder {
+		font-size: 1.5rem;
 	}
 
 	.user-story {
