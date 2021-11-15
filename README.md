@@ -19,7 +19,7 @@ We welcome you to step into our world of Kindness.
 PINK team memebers:
 
 * [Estephanie Standen](https://github.com/Esteph27) [HTML, CSS, JavaScript, Python]
-* [Sophie Nagle](https://github.com/sophnagle)
+* [Sophie Nagle](https://github.com/sophnagle) [HTML, CSS, JavaScript, UX/UI]
 * [Dee Cooper](https://github.com/deecooper)
 * [Rocky Chang](https://github.com/cloki0610)
 * [Kamil Kwiatkowski](https://github.com/kamil-kw) - Team Leder, skilled in [HTML, CSS , JavaScript, Python, Java, Bootstrap]
@@ -179,9 +179,29 @@ Being the first page the user lands on, we wanted the landing page to be welcomi
 
 ### Footer (Dee):
 
-### Hover scale/zoom ins (Sophie):
+### Animations (Sophie):
+
+I have made a scale animation using CSS and JS so that on hover elements with the class of 'scale' enlarge by 20%. This is used on the main page on our values section and also changes background colour. 
+
+On the stories page, we have created animations so that when a user hovers over 'We are in this together' it scales up, changes colour to pink and permanently stays this way. This is done using javascript to add a class with these permanent styles.
+
+        $(document).ready(function () {
+            $(".subHeader").one("mouseover", function() {
+            $(".subHeader").addClass("permahover");
+        });
+        });
+
+Finally, I have added a pulse and change colour effect on the Share your story form using CSS keyframes. These animations help in keeping the user engaged and want to contribute.
+
+The chosen effects tie in with the brand aestetic we were looking for; accessible, light-hearted and contemporary.
+
+### Fade on scoll (Sophie):
+
+I have created a JavaScript function so elements that are given a class of 'fade' are faded into the window. The speed can be changed in the function. This gives a nice smooth, soft effect on bringing the elements into the screen. It gives a smooth user experience.
 
 ### Scroll back to top (Sophie):
+
+I have added a link at the bottom of the pages so the user can quickly go back to top for enhanced user experience. This is a small addition but can greatly improve the experience and help the user navigate the site.
 
 ### Fav icon (Kamil):
 
@@ -331,7 +351,12 @@ To counter this, we added padding to the top and edited the background-colour to
 
 ### Unfixed Bugs
 <!--write here is any unfixed bugs-->
-	
+
+We note that there is a small overflow on the righthand side on the main page on the landing section and the subheader. 
+
+![alt Overhang](assets/images/readme/overhang.png)
+
+On testing we think this code is a bootstrap/div bug. It needs further exploration to fix. 
 
 ## Development
 
