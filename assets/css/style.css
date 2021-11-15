@@ -587,6 +587,18 @@ textarea {
 	#form-button {
 		font-size: 2rem;
 	}
+
+	.scale {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+		-webkit-transition: .5s ease-in-out;
+		transition: .5s ease-in-out;
+	}
+	
+	.scale:hover {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
