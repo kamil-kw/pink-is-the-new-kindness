@@ -109,9 +109,9 @@ These are the initial wireframes from our initial project mind-map and scoping:
 
 Initial ideas for mobile phone layout:
 
-![Wireframes](assets/images/readme/mobile-mockup-1.png)
-![Wireframes](assets/images/readme/mobile-mockup-2.png)
-![Wireframes](assets/images/readme/mobile-mockup-3.png) 
+<img src="assets/images/readme/mobile-mockup-1.png" width="120" height="250">
+<img src="assets/images/readme/mobile-mockup-2.png" width="120" height="250">
+<img src="assets/images/readme/mobile-mockup-3.png" width="120" height="250">
 
 *** 
 [Back to Table Of Content](#tableOfContents)
