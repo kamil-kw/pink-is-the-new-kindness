@@ -19,7 +19,7 @@ We welcome you to step into our world of Kindness.
 PINK team memebers:
 
 * [Estephanie Standen](https://github.com/Esteph27) [HTML, CSS, JavaScript, Python]
-* [Sophie Nagle](https://github.com/sophnagle)
+* [Sophie Nagle](https://github.com/sophnagle) [HTML, CSS, JavaScript, UX/UI]
 * [Dee Cooper](https://github.com/deecooper)
 * [Rocky Chang](https://github.com/cloki0610)
 * [Kamil Kwiatkowski](https://github.com/kamil-kw) - Team Leder, skilled in [HTML, CSS , JavaScript, Python, Java, Bootstrap]
@@ -331,7 +331,12 @@ To counter this, we added padding to the top and edited the background-colour to
 
 ### Unfixed Bugs
 <!--write here is any unfixed bugs-->
-	
+
+We note that there is a small overflow on the righthand side on the main page on the landing section and the subheader. 
+
+![alt Overhang](assets/images/readme/overhang.png)
+
+On testing we think this code is a bootstrap/div bug. It needs further exploration to fix. 
 
 ## Development
 
