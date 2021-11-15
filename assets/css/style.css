@@ -12,6 +12,7 @@ html {
 body {
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 3px;
+	
 }
 
 
@@ -276,13 +277,27 @@ textarea {
 	text-align: center;
 }
 
+#footer-container p {
+	color: #FAF8F9;
+	font-size: 1rem;
+	margin-top: 8px;
+	
+	
+}
+
+#footer-container a {
+	font-size: 1rem;
+}
+
 .social-networks {
 	text-align: center;
-	padding: 2%;
+	padding: 1%;
+	
 }
 
 .social-networks li {
 	display: inline;
+	
 }
 
 .social-networks i {
@@ -290,6 +305,7 @@ textarea {
 	color: #FAF8F9;
 	margin: auto;
 	padding: 5px;
+	margin-top: 10px;
 }
 
 .social-networks i:hover {
@@ -690,4 +706,5 @@ textarea {
 	#story-form {
 		padding: 40px 120px!important;
 	}
+}
 }
