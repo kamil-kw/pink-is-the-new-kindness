@@ -183,8 +183,10 @@ Below the form we have included a caoursell with heart warming images and quotes
 ### Nav bar:
 Our Nav bar was built based on Bootstrap frameworks with additional amendments to edit the top of original code to remove long top bar and change color of this tab to pink so will complement to the overall design of the page, in the latest stage hover added to improve UX and interactivity of this feature.
 
+This section gives users information about the three themes of kindness that we have based our website on. Be kind to yourself, friends, family and the world. 
+Be kind to yourself and check yourself on a regular basis. Be kind to friends and family as they are also going through this with you. We understand that friends and families of those who have been diganosed with breast cancer often find it diffcult. We provided a link to Breast Cancer Now which gives people information about how to support someone with breast cancer. Be kind to the world. We are aware that having breast cancer can have a negative impact on everything in your life. There are ways to help your quality of life. We provided a link to Susan G Komen about how people with breast cancer can improve their quality of life. Good people deserve to live and contribute to our society.
 
-one long bar from left to right, that has been removed and the hambuger bars have been left 
+![image example](assets/images/readme/be-kind-screenshot.jpg)
 
 Navbar includes two links Home and Stories both will show highlights once active.
 
@@ -195,7 +197,8 @@ Be kind to yourself and check yourself on a regular basis. Be kind to friends an
 ![image example](assets/images/readme/be-kind-screenshot.JPG)
 
 
-### Carousel:
+### Carousel (Rocky):
+
 We have two carousel in our website. These components provdied by Bootstrap framework and it is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript. It works with a series of images, text, or custom markup. It also includes the previous/next controls and indicators. User can use the controls and indicators to view three images in the indicators.
 
 ### Story contact form:
