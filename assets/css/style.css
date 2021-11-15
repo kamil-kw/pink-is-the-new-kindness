@@ -588,6 +588,9 @@ textarea {
 		font-size: 2rem;
 	}
 
+	.user-story {
+		margin-top: 60px;
+  }
 	.scale {
 		-webkit-transform: scale(1);
 		transform: scale(1);
@@ -599,7 +602,6 @@ textarea {
 		-webkit-transform: scale(1);
 		transform: scale(1);
 	}
-}
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
 	#hero-image {
@@ -643,6 +645,7 @@ textarea {
 		margin-bottom: 20%;
 		height: 100vh;
 	}
+
 }
 
 
