@@ -69,13 +69,13 @@ The live site can be found [HERE](https://kamil-kw.github.io/pink-is-the-new-kin
 
 ***
 
-## Breif
+## Brief
 
 The goal for this event was to raise Breast Cancer Awareness focusing on the following; providing helpful information and resources to the user relating to Breast Cancer, offer tips and guidance on how to detect signs early, and share personal stories to raise awareness. 
 
 ## PINK - Concept
 
-As a name for the team and in keeping with the breif, we chose to create an acronym from the word PINK and came up with; *PINK Is the New Kindness* where Kindness underpins the values and aim of our project:
+As a name for the team and in keeping with the brief, we chose to create an acronym from the word PINK and came up with; *PINK Is the New Kindness* where Kindness underpins the values and aim of our project:
 
 **P**ink
 
@@ -85,7 +85,7 @@ As a name for the team and in keeping with the breif, we chose to create an acro
 
 **K**indness
 
-It's all about kindness towards surrounding members of family and friends, the world around you, and most importanlty, yourself. Therefore our motto is "be kind":
+It's all about kindness towards surrounding members of family and friends, the world around you, and most importantly, yourself. Therefore our motto is "be kind":
 
 * Be kind to **yourself** – detection of early breast cancer signs, give you a great chance of winning this fight. Believe in your strength!
 * Be kind to **family & friends** – they need you in their lives, and they will be there for you.
@@ -95,7 +95,7 @@ The goal of this website is to provide resources for users on how they can best 
 
 It contains a collection of external resources for each of these three parts (individual, friends/family, world) so the user can easily find information depending on their personal needs and circumstances. 
 
-There are also real-life suer stories shared from the community and a form that allows a user to submit and share their own personal experiences with Breast Cancer. 
+There are also real-life user stories shared from the community and a form that allows a user to submit and share their own personal experiences with Breast Cancer. 
 
 
 ## Wireframes
@@ -147,8 +147,8 @@ PINK is a platform for everyone. From the person who has Breast cancer, to the p
 * I want to learn how I can support friends and family that are going through a bereavement
 * I want to find out how I can help someone going through a diagnosis or treatment
 * I want to learn how I can support myself through a bereavement
-* I wnat to leanring how I can support myself through Breast cancer diagnosis 
-* I want to find out how I can help the wider reasearch of cancer treatments and preventative action
+* I want to learn how I can support myself through Breast cancer diagnosis 
+* I want to find out how I can help the wider research of cancer treatments and preventative action
 * I want to find ideas on how I can raise money for cancer charities
 * I want to read stories of those with similar experiences
 * I want to share my own expereinces with the community 
@@ -168,6 +168,8 @@ Being the first page the user lands on, we wanted the landing page to be welcomi
 ### Nav bar (Kamil):
 
 ### Kindness section (Dee):
+
+
 
 ### Information section (Dee):
 
