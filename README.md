@@ -25,14 +25,14 @@ PINK team memebers:
 * [Kamil Kwiatkowski](https://github.com/kamil-kw) - Team Leder, skilled in [HTML, CSS , JavaScript, Python, Java, Bootstrap]
 
 ## Live Site
-<!-- [nameOfSite](siteURL)) -->
 
 The live site can be found [HERE](https://kamil-kw.github.io/pink-is-the-new-kindness/#).
 
-<!-- ![Multiple Device Demo](./readme-content/images/multi-device.png) -->
-
 ## Repository
 <!-- [repoLocation](repoLocation) -->
+
+![screen device](assets/images/readme/screen-devices.png)
+
 ***
 
 <a name="tableOfContents"></a>
@@ -98,6 +98,8 @@ It contains a collection of external resources for each of these three parts (in
 
 There are also real-life user stories shared from the community and a form that allows a user to submit and share their own personal experiences with Breast Cancer. 
 
+***
+
 [Back to Table Of Content](#tableOfContents)
 ## Wireframes
 
@@ -111,7 +113,7 @@ Initial ideas for mobile phone layout:
 ![Wireframes](assets/images/readme/mobile-mockup-2.png)
 ![Wireframes](assets/images/readme/mobile-mockup-3.png) 
 
-
+*** 
 [Back to Table Of Content](#tableOfContents)
 ## UX Design
 
@@ -139,6 +141,7 @@ We have used light-hearted and tongue-and-cheek imagery throughout the site as w
 
 ![image example](assets/images-for-site/pexels-oranges.jpg)
 
+*** 
 
 ### User Requirements
 
@@ -154,7 +157,6 @@ PINK is a platform for everyone. From the person who has Breast cancer, to the p
 * I want to read stories of those with similar experiences
 * I want to share my own expereinces with the community 
 
-<!-- user stories here -->
 ***
 
 ## Features
@@ -186,20 +188,22 @@ one long bar from left to right, that has been removed and the hambuger bars hav
 
 Navbar includes two links Home and Stories both will show highlights once active.
 
-### Kindness section (Dee):
+### Kindness section:
+This section gives users information about the three themes of kindness that we have based our website on. Be kind to yourself, friends, family and the world.
+Be kind to yourself and check yourself on a regular basis. Be kind to friends and family as they are also going through this with you. We understand that friends and families of those who have been diganosed with breast cancer often find it diffcult. We provided a link to Breast Cancer Now which gives people information about how to support someone with breast cancer. Be kind to the world. We are aware that having breast cancer can have a negative impact on everything in your life. There are ways to help your quality of life. We provided a link to Susan G Komen about how people with breast cancer can improve their quality of life. Good people deserve to live and contribute to our society.
 
+![image example](assets/images/readme/be-kind-screenshot.JPG)
 
-
-### Information section (Dee):
 
 ### Carousel:
 We have two carousel in our website. These components provdied by Bootstrap framework and it is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript. It works with a series of images, text, or custom markup. It also includes the previous/next controls and indicators. User can use the controls and indicators to view three images in the indicators.
 
-### Story contact form (Kamil/Rocky):
+### Story contact form:
+User allowed to use our form to contact us and share their experience. They have to fill the name, email and some text on the input elements and press the submit button to submit the form. And the contents they sent will store in our google sheet file. If the input is empty or the email seems invalid, a alert message will show up with warning messages.
 
-### Footer (Dee):
+### Footer:
 
-### Animations (Sophie):
+### Animations:
 
 WE have made a scale animation using CSS and JS so that on hover elements with the class of 'scale' enlarge by 20%. This is used on the main page on our values section and also changes background colour. 
 
@@ -215,30 +219,20 @@ Finally, we have added a pulse and change colour effect on the Share your story 
 
 The chosen effects tie in with the brand aestetic we were looking for; accessible, light-hearted and contemporary.
 
-### Fade on scoll (Sophie):
-
+### Fade on scoll:
 We have created a JavaScript function so elements that are given a class of 'fade' are faded into the window. The speed can be changed in the function. This gives a nice smooth, soft effect on bringing the elements into the screen. It gives a smooth user experience.
 
-### Scroll back to top (Sophie):
-
+### Scroll back to top:
 We have added a link at the bottom of the pages so the user can quickly go back to top for enhanced user experience. This is a small addition but can greatly improve the experience and help the user navigate the site.
 
 ### Fav icon:
 Favicon pink ribbon download from free catalog [FreeFavicon](https://www.freefavicon.com/), added to provide to improve UX and stand out in the browser tab
 
-
-<!--add remaining features below: -->
+*** 
 
 ### Features Left to Implement
 
-<!-- features left to implement -->
-<!-- 1. Explain desired feature 1
-  - *Notes regarding feature*
-  - Explanation of feature need etc. -->
-<!-- 2. Explain desired feature 2
-  - *Notes regarding feature*
-  - Explanation of feature need etc. -->
-***
+The next development step in PINK project would be creating a fundraising page, where users can choose a cause they would like to support and contribute to it using one of the suggested payment methods.
 
 ## Technologies Used
 
@@ -246,18 +240,24 @@ Favicon pink ribbon download from free catalog [FreeFavicon](https://www.freefav
 
 ## Testing
 
-**Responsive tools**
-Used google dev tool to test responsiveness.
+* Responsive tools - Used google dev tool to test responsiveness.
 
-**Lighthouse**
-Used as a tool for improving the quality of web pages.
+* Lighthouse - Used as a tool for improving the quality of web pages.
 
-**Am I responsive design**
-Am I responsive design used to test end product responsiveness.
+* Am I responsive design - Am I responsive design used to test end product responsiveness.
+
+### Form validation:
+We test the form validation in three situation:
+
+* When the input is valid - If the input is valid, the google sheet file should have a new record.
+
+* When one or more input is empty - If one or more input is empty, a alert will pop up and the data will not send.
+
+* When email seems invalid - If the email seems invalid, another alert will pop up and the data will not be send.
 
 ## Bugs
 
-### Resolved Bugs 
+### Resolved Bugs:
 
 1.	Scale JavaScript/CSS
 
@@ -321,7 +321,7 @@ To:
     </div>
 
 
-4.	Intro Section and colour change on headers
+4. Intro Section and colour change on headers
 
 When adding the introduction paragraph and image, we found that it conflicted with the landing page and pushed the h3 sub-heading out when on a desktop screen. 
 
@@ -334,39 +334,37 @@ To counter this, we added padding to the top and edited the background-colour to
       }
 
 
+
 5. Lighthouse test: 
-### **Web page performance**
+### Web page performance:
 Due to large size of the image the loading of the page site was in total of 10s the original score of 69, size of images reduced by 50% to speed up loading. Score increaded to 87 for moblie and 100 for desktop.
 
-### **Accessibility**
+### Accessibility: 
 Accesibility score of 66 caoused by low amount of alt atributes, after fix score increased to:
 * Index 98 for both moblie and desktop
 
-### **Best Practices**
+### Best Practices:
 Best Practice orginal score of 87 caused by missing detatils in meta tag and links to cross-origin destinations wich appear unsafe fixed by implementing rel noopener
 * Index page score incresed increase to 100 for moblie and 98 desktop
 
-### **SEO**
+### SEO:
 Original score 83 increase after all implementations to:
 * Index & stories: 92 for mobile and 90 for desktop
 
-### Unfixed Bugs
+## Unfixed Bugs
 We note that there is a small overflow on the righthand side on the main page on the landing section and the subheader. 
 
 ![alt Overhang](assets/images/readme/overhang.png)
 
 On testing we think this code is a bootstrap/div bug. It needs further exploration to fix. 
 
-## Development
-
-<!-- section missed in first project. 
-!describe development process -->
+*** 
 
 ## Deployment
 
-### Github Pages:
+### Github Pages:
 
-We used GitHub pages to deploy my final project. To do this I had to:
+We used GitHub pages to deploy my final project. To do this we had to:
 
 1. Create a repository on GitHub.
 
@@ -386,7 +384,7 @@ We used GitHub pages to deploy my final project. To do this I had to:
 
 9. This will now generate a link with your website live.
 
-### Forking the GitHub repository
+### Forking the GitHub repository:
 
 By forking out of this repository you will be able to view and edit the code without affecting the original repository.
 
@@ -396,7 +394,8 @@ By forking out of this repository you will be able to view and edit the code wit
 
 3. This will take you to your own repository to a fork that is called the same as the original branch.
 
-### Making a local clone
+### Making a local clone:
+
 1. Locate the GitHub repository. Link as above.
 
 2. Next to the green Gitpod button you will see a button "code" with an arrow pointing down
@@ -405,6 +404,7 @@ By forking out of this repository you will be able to view and edit the code wit
 
 4. You can also copy https full link, go to git bash and write git clone and paste the full link
 
+*** 
 
 ## Technologies used:
 
@@ -426,6 +426,7 @@ By forking out of this repository you will be able to view and edit the code wit
 
 * JShint validator - Tested by W3C validators nto ensure correct practices used in JavaScript code.
 
+*** 
 
 ## Credits
 
