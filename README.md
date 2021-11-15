@@ -16,7 +16,7 @@ We welcome you to step into our world of Kindness.
 
 ## The Team
 
-PINK team memebers:
+PINK team members:
 
 * [Estephanie Standen](https://github.com/Esteph27) [HTML, CSS, JavaScript, Python]
 * [Sophie Nagle](https://github.com/sophnagle) [HTML, CSS, JavaScript, UX/UI]
@@ -38,6 +38,49 @@ The live site can be found [HERE](https://kamil-kw.github.io/pink-is-the-new-kin
 <a name="tableOfContents"></a>
 
 ## Table of Contents
+
+
+1. Introduction
+2. The Team
+3. Live Site
+4. Repository
+5. Brif
+ PINK - Concept
+ Wireframes
+6. UX Design
+  * Colour Palette
+  * Fonts
+  * Imagery
+7. User Requirements
+8. Features
+* Existing Features
+  * Introdution section
+  * Stories page
+  * Nav bar
+  * Kindness section
+  * Information section
+  * Carousel
+  * Story contact form
+  * Footer
+  * Animations
+  * Fade on scoll
+  * Scroll back to top
+  * Fav icon:
+9. Features Left to Implement
+10. Technologies Used
+* Testing
+* Form validation
+11. Bugs
+* Resolved Bugs
+12. Unfixed Bugs
+13. Deployment
+14. Technologies used:
+15. Technologies used:
+
+
+
+
+
 - [Name of project](#name-of-project)
   - [Live Site](#live-site)
   - [Repository](#repository)
@@ -121,12 +164,14 @@ Breast cancer, or any type of cancer, can be daunting and sometimes devastating.
 
 The overall aesthetic is clean, modern and “light”. Where often finding information online about breast cancer can be overwhelming, we wanted PINK to be clean and clear for the user. A place where information isn’t in your face, but gently handed to you.
 
+[Back to Table Of Content](#tableOfContents)
 ### Colour Palette:
 
 The prominent colour is pink, as pink is not only the name of the project, but also the symbol for breast cancer awareness and it was important to respect this association. Along with the colour pink, we created a custom colour palette which not only compliments the imagery throughout the website, but connotes the feeling of kindness, happiness and hope. 
 
 ![colour palette](assets/images/readme/colour-palette.jpg)
 
+[Back to Table Of Content](#tableOfContents)
 ### Fonts:
 
 To keep within the theme and overall aesthetic, we decided for the below fonts which are used throughout the site: 
@@ -135,6 +180,7 @@ To keep within the theme and overall aesthetic, we decided for the below fonts w
 
 * Monsterrat regular - copy text 
 
+[Back to Table Of Content](#tableOfContents)
 ### Imagery:
 
 We have used light-hearted and tongue-and-cheek imagery throughout the site as we wanted to steer clear from any feeling of being too clinical or “serious”. Breast cancer can be a heavy topic for the user, by implementing these light-hearted images we hope to create a bit of fun for the user and lift a little bit of that weight and worry.
@@ -143,6 +189,7 @@ We have used light-hearted and tongue-and-cheek imagery throughout the site as w
 
 *** 
 
+[Back to Table Of Content](#tableOfContents)
 ### User Requirements
 
 PINK is a platform for everyone. From the person who has Breast cancer, to the person who has a loved one with Breast cancer, to the normal person who just wants to support and raise awareness. With this in mind there are 3 main users, here are some user stories:
@@ -159,6 +206,7 @@ PINK is a platform for everyone. From the person who has Breast cancer, to the p
 
 ***
 
+[Back to Table Of Content](#tableOfContents)
 ## Features
 
 ### Existing Features
@@ -211,7 +259,7 @@ User allowed to use our form to contact us and share their experience. They have
 ### Footer:
 Our footer includes the back to top button and our social media links(Facebook and Twitter). Our social media links allow users to have a means of contact if they wish to get in touch with the PINK team. We added in the text created with kindess by Team pink to let users know who created this website.
 
-![image example](assets/images/readme/footer.JPG)
+![image example](assets/images/readme/footer-screenshot.JPG)
 
 ### Animations:
 
@@ -243,8 +291,37 @@ Favicon pink ribbon download from free catalog [FreeFavicon](https://www.freefav
 ### Features Left to Implement
 
 The next development step in PINK project would be creating a fundraising page, where users can choose a cause they would like to support and contribute to it using one of the suggested payment methods.
-
+[Back to Table Of Content](#tableOfContents)
 ## Technologies Used
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML)
+    * Current project uses HyperText Markup Language.
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+    * Current project uses Cascading Style Sheets.
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+    * To provide animation and API conection
+* [Chrome](https://www.google.com/intl/en_uk/chrome/)
+    * Chrome dev tool used to debug and test code while building
+* [Figma](https://www.figma.com/)
+    * To create wireframes during design
+* [Google Fonts](https://fonts.google.com/)
+    * Used as a source of Poppins font
+* [Font Awsome](https://fontawesome.com/)
+    * To provide icons to page
+* [Github](http://github.com)
+    * For storing project code written in gitpod
+* [W3C Markup](https://validator.w3.org/)
+    * Validation tool to validate the HTML code and CSS style used in the project.
+* [Jigsaw](https://jigsaw.w3.org/)
+    * Validation tool to validate the Javascript code style.
+* [W3School](https://www.w3schools.com/)
+    * For problem solving and code searching
+* [Am I responsive design](http://ami.responsivedesign.is/)
+    * To test responsiveness in end product and create readme screenshots
+* [Beautifier - Free Formater](https://www.freeformatter.com/html-formatter.html)
+    * Used to improve HTML and CSS code presentation
+* [Google Apps Script & Google Sheet](https://www.google.com/sheets/about/)
+    * To recive share your story form submitinon
 
 [Back to Table Of Content](#tableOfContents)
 
