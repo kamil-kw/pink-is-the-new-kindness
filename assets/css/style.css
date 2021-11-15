@@ -618,6 +618,11 @@ textarea {
 		transform: scale(1);
 	}
 
+	#stories h3 {
+		font-size: 36px;
+	}
+}
+
 @media screen and (min-width: 767px) and (max-width: 1023px) {
 	#hero-image {
 		margin-bottom: 8rem;
@@ -665,6 +670,10 @@ textarea {
 	.header-container {
 		margin-bottom: 20%;
 		height: 100vh;
+	}
+
+	#stories h3 {
+		font-size: 36px;
 	}
 
 }
