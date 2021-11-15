@@ -1,75 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,900;1,100&display=swap');
-
 html {
-  font-size: 12px;
-  scroll-behavior: smooth;
+	font-size: 12px;
+	scroll-behavior: smooth;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  }
+	margin: 0;
+	padding: 0;
+}
 
-  body {
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 3px;
-    
-  }
+body {
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 3px;
+}
+
 
 /* ------------------------------- Be kind and TLC section*/
 
 #middle-section {
-  background-color: #cadbd7;
-  height: 750px;
-  padding: 50px;
+	background-color: #cadbd7;
+	height: 750px;
+	padding: 50px;
 }
 
 .container {
-  background-color: #DEC9E2;
-  width: 100%;
-  margin: auto;
-  margin-top: 3%;
-  
+	background-color: #DEC9E2;
+	width: 100%;
+	margin: auto;
+	margin-top: 3%;
 }
 
 .container-middle {
-  background-color: #cadbd7;
-  width: 100%;
-  margin-top: 3%;
- 
+	background-color: #cadbd7;
+	width: 100%;
+	margin-top: 3%;
 }
 
 .box {
-  
-    
-    text-align: center;
-    margin: auto;
-    width: 380px;
-    height: 275px;
+	text-align: center;
+	margin: auto;
+	width: 380px;
+	height: 275px;
 }
 
-  .box h2 {
-    font-size: 2rem;
-    margin-top: 30px;
-  }
+.box h2 {
+	font-size: 2rem;
+	margin-top: 30px;
+}
 
-  .box p {
-    padding: 10px;
-    text-align: justify;
-  }
+.box p {
+	padding: 10px;
+	text-align: justify;
+}
 
-  .box i {
-    font-size: 2rem;
-    color: #bd3d7d;
-    padding-top: 10px;
-  }
+.box i {
+	font-size: 2rem;
+	color: #bd3d7d;
+	padding-top: 10px;
+}
 
-  .box a {
-    color: #bd3d7d;
-    text-align: center;
-  }
+.box a {
+	color: #bd3d7d;
+	text-align: center;
+}
 
-  /*#kind-yourself {
+
+/*#kind-yourself {
     background-color: #dbead0;
   }
 
@@ -99,610 +95,579 @@ html {
 /* ------------------------------- Introduction */
 
 .intro {
-  padding: 100px 40px;
-  font-size: 1.2rem;
-  background-color: #DDC0C8;
+	padding: 100px 40px;
+	font-size: 1.2rem;
+	background-color: #DDC0C8;
 }
 
 .intro p {
-  padding-left: 5px;
-  padding-right: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 .pinkIntro {
-  color: #e15789;
-  font-weight: bold;
-  font-size: 3rem;
+	color: #e15789;
+	font-weight: bold;
+	font-size: 3rem;
 }
 
 #ribbon {
-  display: block;
-  text-align: center;
+	display: block;
+	text-align: center;
 }
 
 #introImage {
-  height: 100%;
-  width: 100%;
+	height: 100%;
+	width: 100%;
 }
+
 
 /* ------------------------------- Carousel */
 
 #carousel {
- 
-  padding: 50px;
-  background: #DDC0C8;
+	padding: 50px;
+	background: #DDC0C8;
 }
 
 .carousel .carousel-item {
-  height: 550px;
+	height: 550px;
 }
 
 .carousel .carousel-item img {
-  height: 550px;
-  object-fit: cover;
+	height: 550px;
+	object-fit: cover;
 }
 
 #stories h3 {
-  font-size: 60px;
+	font-size: 60px;
 }
+
 
 /* ---------------------------- Story Form */
 
 #story-form {
-  background-color: #DBEAD0;
-  padding: 40px 30px;
-  margin-bottom: 5%;
+	background-color: #DBEAD0;
+	padding: 40px 30px;
+	margin-bottom: 5%;
 }
 
 form h2 {
-  font-size: 4rem;
-  text-align: center;
-  font-weight: 900;
-  color: #616160;
+	font-size: 4rem;
+	text-align: center;
+	font-weight: 900;
+	color: #616160;
 }
-
 
 .form-label {
-  color: #bd3d7d;
-  font-size: 2rem;
-  font-weight: 100;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
+	color: #bd3d7d;
+	font-size: 2rem;
+	font-weight: 100;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
-
 
 #form-button {
-  background-color: #FFFFFF;
-  color: #bd3d7d;
-  font-weight: 900;
-  letter-spacing: 5px;
-  font-size: 28px;
-  height: 50px;
-  margin-top: 20px;
-  margin-bottom: 50px;
+	background-color: #FFFFFF;
+	color: #bd3d7d;
+	font-weight: 900;
+	letter-spacing: 5px;
+	font-size: 28px;
+	height: 50px;
+	margin-top: 20px;
+	margin-bottom: 50px;
 }
 
-input, textarea {
-  text-align:center;
+input,
+textarea {
+	text-align: center;
 }
 
 ::-webkit-input-placeholder {
-  color: #616160!important;
-  font-size: 1rem;
+	color: #616160!important;
+	font-size: 1rem;
 }
 
 ::-moz-placeholder {
-  color: #EEC8E0!important;
+	color: #EEC8E0!important;
 }
 
 :-ms-input-placeholder {
-  color: #EEC8E0!important;
+	color: #EEC8E0!important;
 }
 
 :-moz-placeholder {
-  color: #EEC8E0!important;
+	color: #EEC8E0!important;
 }
 
 .form-control:hover {
-  border: 1px solid #bd3d7d;
+	border: 1px solid #bd3d7d;
 }
 
 #form-button:hover {
-  background-color: #EEC8E0;
-  color: #FFFFFF;
-  transition: 1s;
+	background-color: #EEC8E0;
+	color: #FFFFFF;
+	transition: 1s;
 }
 
 
 /* ------------------------------- Header image */
 
 #hero-background {
-  background-color: #DDC0C8;
-  height: 100vh;
-  width: 100vw;
-  max-width: 100%;
+	background-color: #DDC0C8;
+	height: 100vh;
+	width: 100vw;
+	max-width: 100%;
 }
 
 #hero-image {
-  background-image: url('../images-for-site/pexels-oranges.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50%;
-  width: 100%;
-  height: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 3rem;
+	background-image: url('../images-for-site/pexels-oranges.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+	width: 100%;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3rem;
 }
 
 #hero-background h1 {
-  font-weight: 900;
-  color: #FAF8F9;
-  font-size: 20rem;
-  letter-spacing: 90px;
-  text-align: center;
-  margin-left: 5%;
+	font-weight: 900;
+	color: #FAF8F9;
+	font-size: 20rem;
+	letter-spacing: 90px;
+	text-align: center;
+	margin-left: 5%;
 }
 
 #hero-background h3 {
-  color: #FAF8F9;
-  font-size: 4rem;
-  text-align: center;
-  letter-spacing: 5px;
+	color: #FAF8F9;
+	font-size: 4rem;
+	text-align: center;
+	letter-spacing: 5px;
 }
 
+
 /* ------------------------------- Navbar */
+
 .fixed-top {
-  --bs-bg-opacity: 0.7;
-  background-color: rgba(var(--bs-red), var(--bs-bg-opacity)) !important;
+	--bs-bg-opacity: 0.7;
+	background-color: rgba(var(--bs-red), var(--bs-bg-opacity)) !important;
 }
 
 .container {
-  background-color: white;
-  width: 100%;
-  margin: auto;
-  margin-top: 2%; 
-  padding-left: 0;
-  padding-right: 0;
+	background-color: white;
+	width: 100%;
+	margin: auto;
+	margin-top: 2%;
+	padding-left: 0;
+	padding-right: 0;
 }
 
-.navbar-toggler{
-  width: 47px;
-  height: 34px;
-  background-color: #DDC0C8;
-  border:none;
+.navbar-toggler {
+	width: 47px;
+	height: 34px;
+	background-color: #DDC0C8;
+	border: none;
 }
-.navbar-toggler:hover{
-  width: 47px;
-  height: 34px;
-  background-color: #bd3d7d;
-  border:none;
+
+.navbar-toggler:hover {
+	width: 47px;
+	height: 34px;
+	background-color: #bd3d7d;
+	border: none;
 }
-.navbar-toggler .line{
-  width: 100%;
-  float: left;
-  height: 2px;
-  background-color: #fff;
-  margin-bottom: 5px;
+
+.navbar-toggler .line {
+	width: 100%;
+	float: left;
+	height: 2px;
+	background-color: #fff;
+	margin-bottom: 5px;
 }
+
 
 /* ------------------------------- Footer */
 
 #footer-container {
-  width: 100%;
-  height: 150px;
-  background-color: #bd3d7d;
-  margin-top: auto;
-  text-align: center;
-      
+	width: 100%;
+	height: 150px;
+	background-color: #bd3d7d;
+	margin-top: auto;
+	text-align: center;
 }
 
-
 .social-networks {
-  text-align: center;
-  padding: 2%;
-
+	text-align: center;
+	padding: 2%;
 }
 
 .social-networks li {
-  display: inline;
-
-
+	display: inline;
 }
 
-
 .social-networks i {
-  font-size: 3rem;
-  color: #FAF8F9;
-  margin: auto;
-  padding: 5px;
-  
-
+	font-size: 3rem;
+	color: #FAF8F9;
+	margin: auto;
+	padding: 5px;
 }
 
 .social-networks i:hover {
-  transform: scale(1.2);
+	transform: scale(1.2);
 }
-
-
-
 
 
 /* ------------------------------- Stories page welcome */
 
 #story-background {
-  background-color: #F8EBF0;
+	background-color: #F8EBF0;
 }
 
 .header-container {
-  width: 100%;
-  height: 90rem;
-  padding-bottom: 10%;
+	width: 100%;
+	height: 90rem;
+	padding-bottom: 10%;
 }
 
 .header-container h2 {
-  font-weight: 900;
-  color: #616160;
-  font-size: 10rem;
-  letter-spacing: 52px;
-  text-align: center;
-  margin-left: 5%;
-  padding-bottom: 2%;
-  padding-top: 2%;
+	font-weight: 900;
+	color: #616160;
+	font-size: 10rem;
+	letter-spacing: 52px;
+	text-align: center;
+	margin-left: 5%;
+	padding-bottom: 2%;
+	padding-top: 2%;
 }
 
 .header-container h2:hover {
-  color: #fff;
+	color: #fff;
 }
 
 .header-container h3 {
-  color: #616160;
-  font-size: 3rem;
-  text-align: center;
-  letter-spacing: 8px;
-  margin-top: 5%;
+	color: #616160;
+	font-size: 3rem;
+	text-align: center;
+	letter-spacing: 8px;
+	margin-top: 5%;
 }
 
 #stories-img {
-  background-image: url('../images-for-site/pexels-stories.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 50%;
-  width: 71%;
-  height: 75%;
-  margin-bottom: 4%;
-  margin-left: auto;
-  margin-right: auto;
+	background-image: url('../images-for-site/pexels-stories.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: 50%;
+	width: 71%;
+	height: 75%;
+	margin-bottom: 4%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #storyIcon {
-  text-align: center;
-  display: block;
+	text-align: center;
+	display: block;
 }
+
 
 /* ------------------------------- Stories page - user stories*/
 
 .user-story {
-  margin-top: 4%;
-  width: 93.5vw;
-  padding-left: 10%;
-  padding-bottom: 5%;
-  background-color: #F8EBF0;
+	margin-top: 4%;
+	width: 93.5vw;
+	padding-left: 10%;
+	padding-bottom: 5%;
+	background-color: #F8EBF0;
 }
 
 .user-story-box {
-  width: 80vw;
-  height: 40%;
-  background-color:#CADBD7;
-  padding-bottom: 2%;
+	width: 80vw;
+	height: 40%;
+	background-color: #CADBD7;
+	padding-bottom: 2%;
 }
 
 .story-title h2 {
-  font-size: 6rem;
-  font-weight: 900;
-  text-align: center;
-  color: #616160;
+	font-size: 6rem;
+	font-weight: 900;
+	text-align: center;
+	color: #616160;
 }
 
 .story-title h3 {
-  font-size: 3rem;
-  text-align: center;
-  padding-top: 2%;
-  color:#bd3d7d;
+	font-size: 3rem;
+	text-align: center;
+	padding-top: 2%;
+	color: #bd3d7d;
 }
 
 .story-body {
-  text-align: justify;
-  padding-left: 8%;
-  padding-right: 8%;
-  font-size: 1.30rem;
+	text-align: justify;
+	padding-left: 8%;
+	padding-right: 8%;
+	font-size: 1.30rem;
 }
 
 .story-user p {
-  font-size: 2rem;
-  text-align: center;
-  font-style: italic;
-  font-weight: bold;
-  padding-left: 8%;
-  padding-right: 8%;
+	font-size: 2rem;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	padding-left: 8%;
+	padding-right: 8%;
 }
 
 
-/*------------------------------  Sophie - Interactive elements */ 
+/*------------------------------  Sophie - Interactive elements */
+
 
 /*-------- Fade in on scroll */
+
 .fade {
-  opacity: 0;
+	opacity: 0;
 }
 
+
 /*------ Scroll to top link style */
+
 .scroll {
-  text-align: center;
-  text-decoration: none;
+	text-align: center;
+	text-decoration: none;
 }
 
 .scroll a {
-  color: #FAF8F9;
-  font-family: inherit;
-  text-decoration: none;
-  margin-top: 2px;
+	color: #FAF8F9;
+	font-family: inherit;
+	text-decoration: none;
+	margin-top: 2px;
 }
 
 .scroll a:hover {
-  color: #eeC8E0;
+	color: #eeC8E0;
 }
 
 
 /* ------ Scale up animation */
+
 .scale {
-  -webkit-transform: scale(1);
-  transform: scale(1);
-  -webkit-transition: .5s ease-in-out;
-  transition: .5s ease-in-out;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
 }
 
 .scale:hover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-  background-color: #DBEAD0;
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	background-color: #DBEAD0;
 }
 
+
 /* ------------------- Pulse hover */
+
+
 /* Adapted from https://stackoverflow.com/questions/66241951/css-pulse-animation-override-on-hover */
 
 @keyframes pulse {
-  0%, 100% {
-      transform: scale(1);
-      animation-timing-function: ease-in;
-  }
-
-  50% {
-      transform: scale(1.33);
-  }
+	0%,
+	100% {
+		transform: scale(1);
+		animation-timing-function: ease-in;
+	}
+	50% {
+		transform: scale(1.33);
+	}
 }
 
 .scaleStory:hover {
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
-  color: #e15789;
-  animation: pulse 2s infinite;
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	color: #e15789;
+	animation: pulse 2s infinite;
 }
 
 .permahover {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-  color: #e15789 !important;
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+	color: #e15789 !important;
 }
-
 
 
 /* ----- pink change colour */
 
 #hero-background h1:hover {
-  color: #e15789;
-} 
-
-#hero-background h3:hover {
-  color: #e15789;
+	color: #e15789;
 }
 
+#hero-background h3:hover {
+	color: #e15789;
+}
+
+
 /* ------------------------------- Esteph - Media queries */
+
+
 /* ------------------------------- for mobile screens */
 
 @media screen and (min-width: 280px) and (max-width: 767px) {
-  #hero-image {
-    width: 100%;
-    height: 30%;
-    margin-bottom: 5rem;
-  }
-
-  #hero-background h1 {
-      font-size: 8rem;
-      padding-top: 10rem;
-      margin-bottom: 5rem;
-      letter-spacing: 15px;
-  }
-
-  #hero-background h3 {
-      font-size: 3rem;
-  }
-
-  .box {
-    display: block;
-    width: 400px;
-    height: 290px;
-    margin: auto;
-    margin-top: 30px;
-    
-  }
-
-  .box h2 {
-    font-size: 1.5rem;
-  }
-
-  .box p {
-    font-size: 1rem;
-    text-align: center;
-  }
-  #middle-section {
-    height: 2000px;
-    padding: 20px 0;
-  }
-
-  form h2 {
-    font-size: 2.5rem;
-  }
-  
-  #story-form {
-    padding: 40px 20px!important;
-  }
-
-  .intro {
-    padding: 60px 40px;
-  }
-
-  /* story page */
-  .header-container h2 {
-    font-size: 5rem;
-    letter-spacing: 5px;
-    padding-top: 5rem;
-  }
-
-  .header-container h3 {
-    font-size: 1.8rem;
-    letter-spacing: 1.5px;
-    padding-top: 1%;
-  }
-
-  #stories-img {
-    height: 70%;
-  }
-
-  .header-container {
-    padding-bottom: 1%;
-    height: 90vh;
-  }
-
-  .story-title h2 {
-    font-size: 3rem;
-    letter-spacing: 5px;
-  }
-
-  .story-title h3 {
-    font-size: 2rem;
-    letter-spacing: 5px;
-    padding-bottom: 5%;
-  }
-
-  .story-body {
-    letter-spacing: 2px;
-    font-size: 1.12rem;
-  }
-
-  #form-button {
-    font-size: 2rem;
-  }
+	#hero-image {
+		width: 100%;
+		height: 30%;
+		margin-bottom: 5rem;
+	}
+	#hero-background h1 {
+		font-size: 8rem;
+		padding-top: 10rem;
+		margin-bottom: 5rem;
+		letter-spacing: 15px;
+	}
+	#hero-background h3 {
+		font-size: 3rem;
+	}
+	.box {
+		display: block;
+		width: 400px;
+		height: 290px;
+		margin: auto;
+		margin-top: 30px;
+	}
+	.box h2 {
+		font-size: 1.5rem;
+	}
+	.box p {
+		font-size: 1rem;
+		text-align: center;
+	}
+	#middle-section {
+		height: 2000px;
+		padding: 20px 0;
+	}
+	form h2 {
+		font-size: 2.5rem;
+	}
+	#story-form {
+		padding: 40px 20px!important;
+	}
+	.intro {
+		padding: 60px 40px;
+	}
+	/* story page */
+	.header-container h2 {
+		font-size: 5rem;
+		letter-spacing: 5px;
+		padding-top: 5rem;
+	}
+	.header-container h3 {
+		font-size: 1.8rem;
+		letter-spacing: 1.5px;
+		padding-top: 1%;
+	}
+	#stories-img {
+		height: 70%;
+	}
+	.header-container {
+		padding-bottom: 1%;
+		height: 90vh;
+	}
+	.story-title h2 {
+		font-size: 3rem;
+		letter-spacing: 5px;
+	}
+	.story-title h3 {
+		font-size: 2rem;
+		letter-spacing: 5px;
+		padding-bottom: 5%;
+	}
+	.story-body {
+		letter-spacing: 2px;
+		font-size: 1.12rem;
+	}
+	#form-button {
+		font-size: 2rem;
+	}
 }
 
 @media screen and (min-width: 767px) and (max-width: 1023px) {
-  #hero-image {
-    margin-bottom: 8rem;
-  }
-
-  #hero-background h1 {
-    font-size: 15rem;
-    padding-top: 5rem;
+	#hero-image {
+		margin-bottom: 8rem;
+	}
+	#hero-background h1 {
+		font-size: 15rem;
+		padding-top: 5rem;
+	}
+	.box {
+		margin: 1%;
+		text-align: center;
+		margin: auto;
+		width: 225px;
+		height: 320px;
+	}
+	.box h2 {
+		font-size: 1.5rem;
+	}
+	#middle-section {
+		padding: 20px 0;
+	}
+	#story-form {
+		padding: 40px 20px!important;
+	}
+	/* story page */
+	.header-container h2 {
+		font-size: 8rem;
+		letter-spacing: 40px;
+		padding-top: 5rem;
+	}
+	.header-container h3 {
+		font-size: 2.7rem;
+		letter-spacing: 3px;
+		padding-top: 1%
+	}
+	#stories-img {
+		height: 80%;
+	}
+	.header-container {
+		margin-bottom: 20%;
+		height: 100vh;
+	}
 }
 
-  .box {
-    
-    margin: 1%;
-    text-align: center;
-    margin: auto;
-    width: 225px;
-    height: 320px;
-  }
-
-  .box h2 {
-    font-size: 1.5rem;
-  }
-
-  #middle-section {
-    padding: 20px 0;
-  }
-
-  #story-form {
-    padding: 40px 20px!important;
-  }
-
-  /* story page */
-  .header-container h2 {
-    font-size: 8rem;
-    letter-spacing: 40px;
-    padding-top: 5rem;
-  }
-
-  .header-container h3 {
-    font-size: 2.7rem;
-    letter-spacing: 3px;
-    padding-top: 1%
-  }
-
-  #stories-img {
-    height: 80%;
-  }
-
-  .header-container {
-    margin-bottom: 20%;
-    height: 100vh;
-  }
-
-}
 
 /* ------------------------------- for ipad and tablet screens */
+
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-
-
-  #hero-image {
-    height: 50vh;
-    width: 100vw;
-  }
-
-  #hero-background h1 {
-    padding-top: 0;
-    font-size: 15rem;
-  }
-
-  #hero-background h3 {
-    font-size: 5rem;
-  }
-
-  .box {
-    background-color: white;
-    margin: 1%;
-    text-align: center;
-    margin: auto;
-    width: 300px;
-    height: 270px;
-  }
-
-  /* story page */
-
-  .header-container h3 {
-    margin-top: 6%;
-  }
-  .story-title  h2 {
-    font-size: 5.5rem;
-  }
-
-  .story-body {
-    font-size: 1.30rem;
-  }
-
-  /* ------------------------------- Tell us story form */
-  #story-form {
-    padding: 40px 120px!important;
-  }
-
+	#hero-image {
+		height: 50vh;
+		width: 100vw;
+	}
+	#hero-background h1 {
+		padding-top: 0;
+		font-size: 15rem;
+	}
+	#hero-background h3 {
+		font-size: 5rem;
+	}
+	.box {
+		background-color: white;
+		margin: 1%;
+		text-align: center;
+		margin: auto;
+		width: 300px;
+		height: 270px;
+	}
+	/* story page */
+	.header-container h3 {
+		margin-top: 6%;
+	}
+	.story-title h2 {
+		font-size: 5.5rem;
+	}
+	.story-body {
+		font-size: 1.30rem;
+	}
+	/* ------------------------------- Tell us story form */
+	#story-form {
+		padding: 40px 120px!important;
+	}
 }
