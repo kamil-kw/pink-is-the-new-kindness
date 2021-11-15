@@ -183,6 +183,8 @@ Below the form we have included a caoursell with heart warming images and quotes
 ### Nav bar:
 Our Nav bar was built based on Bootstrap frameworks with additional amendments to edit the top of original code to remove long top bar and change color of this tab to pink so will complement to the overall design of the page, in the latest stage hover added to improve UX and interactivity of this feature.
 
+one long bar from left to right, that has been removed and the hambuger bars have been left
+
 Navbar includes two links Home and Stories both will show highlights once active.
 
 ### Kindness section:
