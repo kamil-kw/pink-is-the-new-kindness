@@ -195,6 +195,13 @@ Be kind to yourself and check yourself on a regular basis. Be kind to friends an
 ![image example](assets/images/readme/be-kind-screenshot.JPG)
 
 
+### Information section:
+
+This section includes fundrasing ideas, how to touch look, check and support groups. 
+We provided a few links to charties for users who want to donate to breast cancer awarness and research. We also provided a link to Nora Carrolls Shave to Raise Fundraiser. Nora Carroll kindly provided us with her breast cancer story which is featured on our stories page. TLC (touch, look and check) many women/men are unaware about how to properly look out for the signs of breast cancer. We want to inform women/men about what they should be looking for and how to check properly. We provided links to breast cancer now and how to check your breast. These websites provide the correct information about how to check your breasts. There are plenty of support groups and services available for women/men who have been diganosed with breast cancer. We have provided links to some support groups and services.
+
+![image example](assets/images/readme/information-screenshot.JPG)
+
 ### Carousel:
 We have two carousel in our website. These components provdied by Bootstrap framework and it is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript. It works with a series of images, text, or custom markup. It also includes the previous/next controls and indicators. User can use the controls and indicators to view three images in the indicators.
 
@@ -202,6 +209,9 @@ We have two carousel in our website. These components provdied by Bootstrap fram
 User allowed to use our form to contact us and share their experience. They have to fill the name, email and some text on the input elements and press the submit button to submit the form. And the contents they sent will store in our google sheet file. If the input is empty or the email seems invalid, a alert message will show up with warning messages.
 
 ### Footer:
+Our footer includes the back to top button and our social media links(Facebook and Twitter). Our social media links allow users to have a means of contact if they wish to get in touch with the PINK team. We added in the text created with kindess by Team pink to let users know who created this website.
+
+![image example](assets/images/readme/footer.JPG)
 
 ### Animations:
 
