@@ -35,8 +35,9 @@ The live site can be found [HERE](https://kamil-kw.github.io/pink-is-the-new-kin
 <!-- [repoLocation](repoLocation) -->
 ***
 
-## Table of Contents
+<a name="tableOfContents"></a>
 
+## Table of Contents
 - [Name of project](#name-of-project)
   - [Live Site](#live-site)
   - [Repository](#repository)
@@ -75,7 +76,7 @@ The goal for this event was to raise Breast Cancer Awareness focusing on the fol
 
 ## PINK - Concept
 
-As a name for the team and in keeping with the brief, we chose to create an acronym from the word PINK and came up with; *PINK Is the New Kindness* where Kindness underpins the values and aim of our project:
+As a name for the team and in keeping with the brief, we chose to create an acronym from the word PINK and came up with; *PINK Is the New Kindness* where Kindness underpins the values and aims of our project:
 
 **P**ink
 
@@ -97,7 +98,7 @@ It contains a collection of external resources for each of these three parts (in
 
 There are also real-life user stories shared from the community and a form that allows a user to submit and share their own personal experiences with Breast Cancer. 
 
-
+[Back to Table Of Content](#tableOfContents)
 ## Wireframes
 
 These are the initial wireframes from our initial project mind-map and scoping:
@@ -111,30 +112,30 @@ Initial ideas for mobile phone layout:
 ![Wireframes](assets/images/readme/mobile-mockup-3.png) 
 
 
-
+[Back to Table Of Content](#tableOfContents)
 ## UX Design
 
 Breast cancer, or any type of cancer, can be daunting and sometimes devastating. With this in mind, PINK needed to be a place that was warm, happy and inviting. A space where users feel welcomed but also catches their attention. Additionally, as kindness underpins the values for this project, we wanted to ensure this was reflected in our UX. We’ve achieved this through our selective use of colours, light-hearted imagery, icons and fonts. 
 
 The overall aesthetic is clean, modern and “light”. Where often finding information online about breast cancer can be overwhelming, we wanted PINK to be clean and clear for the user. A place where information isn’t in your face, but gently handed to you.
 
-#### Colour Palette:
+### Colour Palette:
 
 The prominent colour is pink, as pink is not only the name of the project, but also the symbol for breast cancer awareness and it was important to respect this association. Along with the colour pink, we created a custom colour palette which not only compliments the imagery throughout the website, but connotes the feeling of kindness, happiness and hope. 
 
 ![colour palette](assets/images/readme/colour-palette.jpg)
 
-#### Fonts:
+### Fonts:
 
 To keep within the theme and overall aesthetic, we decided for the below fonts which are used throughout the site: 
 
-Monsterrat Bold - header and subtitles
+* Monsterrat Bold - header and subtitles
 
-Monsterrat regular - copy text 
+* Monsterrat regular - copy text 
 
-#### Imagery:
+### Imagery:
 
-We have used light-heart and tongue-and-cheek imagery throughout the site as we wanted to steer clear from any feeling of being too clinical or “serious”. Breast cancer can be a heavy topic for the user, by implementing these light-hearted images we hope to create a bit of fun for the user and lift a little bit of that weight and worry.
+We have used light-hearted and tongue-and-cheek imagery throughout the site as we wanted to steer clear from any feeling of being too clinical or “serious”. Breast cancer can be a heavy topic for the user, by implementing these light-hearted images we hope to create a bit of fun for the user and lift a little bit of that weight and worry.
 
 ![image example](assets/images-for-site/pexels-oranges.jpg)
 
@@ -161,11 +162,29 @@ PINK is a platform for everyone. From the person who has Breast cancer, to the p
 ### Existing Features
 
 ### Landing page:
-Being the first page the user lands on, we wanted the landing page to be welcoming as well as visually impactful to the user. We achieved this through keeping it simple yet effective with the use of our tongue-and-cheek hero image which is placed centrally across the screen. The name of the project is also placed centrally on the screen in large and bold letters to shout our name out load and proud. The slogan below the hero image also tells the user what the project name stands for clearly so the user knows what to expect. 
+Being the first page the user lands on, we wanted the landing page to be welcoming as well as visually impactful to the user. We achieved this through keeping it simple yet effective with the use of our tongue-and-cheek hero image, fonts and hover-over features:
 
-### Stories page (Esteph):
+The name of the project is placed centrally on the screen in large and bold letters to shout our name out load and proud. In the center across the screen is a our hero image which sets the light-hearted tone we want to acheieve. The slogan below the hero image also tells the user what the project name stands for as well as user readbility and comprehension. 
 
-### Nav bar (Kamil):
+The hover over features changes the font and slogan colours to pink when the user hovers of them. This feature was added to create an element of fun for the user experierence.
+
+### Introdution section:
+This section explains to the user what our platform is about. It outlines what they can expect to find, what they can do and provides an overall introduction to PINK. We placed it right under the hero image section so that the user knows straight away what they're looking into to improve their exeprience. 
+
+### Stories page:
+This page aims to provide further community support and raise awareness by sharing with the user real-life stories from the community. The user is also invited to share their personal experience with Breast cancer by using the from at the bottom of the page.
+
+We have also included hover over features on the page title and H3 header to tie in with the features on the home page for cohesiveness. 
+
+Below the form we have included a caoursell with heart warming images and quotes to provide further comfort to the user as well as complimenting the aesthetic of the page.
+
+### Nav bar:
+Our Nav bar was built based on Bootstrap frameworks with additional amendments to edit the top of original code to remove long top bar and change color of this tab to pink so will complement to the overall design of the page, in the latest stage hover added to improve UX and interactivity of this feature.
+
+
+one long bar from left to right, that has been removed and the hambuger bars have been left 
+
+Navbar includes two links Home and Stories both will show highlights once active.
 
 ### Kindness section (Dee):
 
@@ -173,7 +192,7 @@ Being the first page the user lands on, we wanted the landing page to be welcomi
 
 ### Information section (Dee):
 
-### Carousel (Rocky):
+### Carousel:
 We have two carousel in our website. These components provdied by Bootstrap framework and it is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript. It works with a series of images, text, or custom markup. It also includes the previous/next controls and indicators. User can use the controls and indicators to view three images in the indicators.
 
 ### Story contact form (Kamil/Rocky):
@@ -182,7 +201,7 @@ We have two carousel in our website. These components provdied by Bootstrap fram
 
 ### Animations (Sophie):
 
-I have made a scale animation using CSS and JS so that on hover elements with the class of 'scale' enlarge by 20%. This is used on the main page on our values section and also changes background colour. 
+WE have made a scale animation using CSS and JS so that on hover elements with the class of 'scale' enlarge by 20%. This is used on the main page on our values section and also changes background colour. 
 
 On the stories page, we have created animations so that when a user hovers over 'We are in this together' it scales up, changes colour to pink and permanently stays this way. This is done using javascript to add a class with these permanent styles.
 
@@ -192,19 +211,20 @@ On the stories page, we have created animations so that when a user hovers over 
         });
         });
 
-Finally, I have added a pulse and change colour effect on the Share your story form using CSS keyframes. These animations help in keeping the user engaged and want to contribute.
+Finally, we have added a pulse and change colour effect on the Share your story form using CSS keyframes. These animations help in keeping the user engaged and want to contribute.
 
 The chosen effects tie in with the brand aestetic we were looking for; accessible, light-hearted and contemporary.
 
 ### Fade on scoll (Sophie):
 
-I have created a JavaScript function so elements that are given a class of 'fade' are faded into the window. The speed can be changed in the function. This gives a nice smooth, soft effect on bringing the elements into the screen. It gives a smooth user experience.
+We have created a JavaScript function so elements that are given a class of 'fade' are faded into the window. The speed can be changed in the function. This gives a nice smooth, soft effect on bringing the elements into the screen. It gives a smooth user experience.
 
 ### Scroll back to top (Sophie):
 
-I have added a link at the bottom of the pages so the user can quickly go back to top for enhanced user experience. This is a small addition but can greatly improve the experience and help the user navigate the site.
+We have added a link at the bottom of the pages so the user can quickly go back to top for enhanced user experience. This is a small addition but can greatly improve the experience and help the user navigate the site.
 
-### Fav icon (Kamil):
+### Fav icon:
+Favicon pink ribbon download from free catalog [FreeFavicon](https://www.freefavicon.com/), added to provide to improve UX and stand out in the browser tab
 
 
 <!--add remaining features below: -->
@@ -222,55 +242,18 @@ I have added a link at the bottom of the pages so the user can quickly go back t
 
 ## Technologies Used
 
-### **During my page creation journey I did use:**
-
-* [HTML5](https://en.wikipedia.org/wiki/HTML)
-    * Current project uses HyperText Markup Language.
-* [CSS3](https://en.wikipedia.org/wiki/CSS)
-    * Current project uses Cascading Style Sheets.
-* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-    * To provide animation and API conection
-* [Chrome](https://www.google.com/intl/en_uk/chrome/)
-    * Chrome dev tool used to debug and test code while building
-* [Balsamiq](https://www.figma.com/)
-    * To create wireframes during design
-* [Google Fonts](https://fonts.google.com/)
-    * Used as a source of Poppins font
-* [Font Awsome](https://fontawesome.com/)
-    * To provide icons to page
-* [Github](http://github.com)
-    * For storing project code written in gitpod
-* [W3C Markup](https://validator.w3.org/)
-    * Validation tool to validate the HTML code and CSS style used in the project.
-* [Jigsaw](https://jigsaw.w3.org/) 
-    * Validation tool to validate the Javascript code style.
-* [W3School](https://www.w3schools.com/)
-    * For problem solving and code searching
-* [Am I responsive design](http://ami.responsivedesign.is/)
-    * To test responsiveness in end product and create readme screenshots
-* [Beautifier - Free Formater](https://www.freeformatter.com/html-formatter.html) 
-    * Used to improve HTML and CSS code presentation
-* [Google API]()
-    * 
-
-
 [Back to Table Of Content](#tableOfContents)
 
 ## Testing
 
-<!-- explain testing
-? item tested
-? expected result
-? how test was performed
-? actual result
-? differences
-? action required
-? re-test
-- more detail and better format required compared with project 1
-look at daisy's testing documentation and [webinar](https://us02web.zoom.us/rec/play/9FIKllHX2ZiQNFRhYPn_hBh_ZeA8964ZvIDLnhpKGAf1NLVc3_hBJ6zSL8Hv5Hx7ALnPtDmbg8CmFAs.YVsZ9LR_uI7OjEwH)-->
+**Responsive tools**
+Used google dev tool to test responsiveness.
 
-<!-- validation of html, css and script. -->
-<!-- lighthouse testing -->
+**Lighthouse**
+Used as a tool for improving the quality of web pages.
+
+**Am I responsive design**
+Am I responsive design used to test end product responsiveness.
 
 ## Bugs
 
@@ -319,7 +302,7 @@ However on testing we thorught that this looked like it was loading the page too
 
 3.	Back to Top Link 
 
-This was a typo in that the <i> element from font-awesome wasn’t copied correctly. 
+This was a typo in that the element from font-awesome wasn’t copied correctly. 
 
 It was corrected from:
 
@@ -350,9 +333,24 @@ To counter this, we added padding to the top and edited the background-colour to
         background-color: #DDC0C8;
       }
 
-### Unfixed Bugs
-<!--write here is any unfixed bugs-->
 
+5. Lighthouse test: 
+### **Web page performance**
+Due to large size of the image the loading of the page site was in total of 10s the original score of 69, size of images reduced by 50% to speed up loading. Score increaded to 87 for moblie and 100 for desktop.
+
+### **Accessibility**
+Accesibility score of 66 caoused by low amount of alt atributes, after fix score increased to:
+* Index 98 for both moblie and desktop
+
+### **Best Practices**
+Best Practice orginal score of 87 caused by missing detatils in meta tag and links to cross-origin destinations wich appear unsafe fixed by implementing rel noopener
+* Index page score incresed increase to 100 for moblie and 98 desktop
+
+### **SEO**
+Original score 83 increase after all implementations to:
+* Index & stories: 92 for mobile and 90 for desktop
+
+### Unfixed Bugs
 We note that there is a small overflow on the righthand side on the main page on the landing section and the subheader. 
 
 ![alt Overhang](assets/images/readme/overhang.png)
@@ -366,25 +364,47 @@ On testing we think this code is a bootstrap/div bug. It needs further explorati
 
 ## Deployment
 
-<!-- !check this section, may need adjusting as using additional languages -->
+### Github Pages:
 
-<!-- **Github Pages**
-- Navigate to the relevant GitHub Repository [here](github repo URL)
-- Select "Settings" from the options below the name of the repository
-![Settings Snip](./readme-content/images/github-settings.png)
-- Select "Pages" from the left hand menu
-![Pages Snip](./readme-content/images/pages-select.png)
-- Select "Branch: main" as the source and leave the directory as "/(root)"
-![Source Snip](./readme-content/images/pages-source.png)
-- Click the Save button
-- Take note of the URL provided
-![URL Snip](./readme-content/images/pages-url.png)
-- GitHub takes a short while to publish the page. The bar turns green if you refresh the pages tab and the page has been deployed
-![Confirmed Deployment Snip](./readme-content/images/pages-deployed.png)
-- Click the link or copy the URL to a browser to reach the deployed page
-https://daveyjh.github.io/ci-portfolio-one-v4/
-The site is now live and operational -->
-***
+We used GitHub pages to deploy my final project. To do this I had to:
+
+1. Create a repository on GitHub.
+
+2. Clone the repository on your chosen source code editor (Atom in my case) using the clone link.
+
+3. Add files to Git (staging area) and use the atom commit to master button.
+
+4. Use git within atom to push the code.
+
+5. Go to GitHub and load your repository.
+
+6. Select settings.
+
+7. Select pages on the left menu bar.
+
+8. Click on the master branch.
+
+9. This will now generate a link with your website live.
+
+### Forking the GitHub repository
+
+By forking out of this repository you will be able to view and edit the code without affecting the original repository.
+
+1. Locate the GitHub repository. Link to repo: https://github.com/kamil-kw/pink-is-the-new-kindness
+
+2. Click the button in the top right-hand corner "Fork"
+
+3. This will take you to your own repository to a fork that is called the same as the original branch.
+
+### Making a local clone
+1. Locate the GitHub repository. Link as above.
+
+2. Next to the green Gitpod button you will see a button "code" with an arrow pointing down
+
+3. You are given the option to open with GitHub desktop or download zip
+
+4. You can also copy https full link, go to git bash and write git clone and paste the full link
+
 
 ## Technologies used:
 
@@ -400,39 +420,28 @@ The site is now live and operational -->
 
 ## Validation:
 
-1. W3C HTML 
-- HTML code passed with no errors
-- CSS code passed with no errors
+* W3C HTML validator - Tested by W3C validators to ensure correct practices used in html code.
 
-2. Jigsaw
-- JavaScript passed with no erros
+* W3C CSS validator - Tested by W3C validators to ensure correct practices used in css code.
+
+* JShint validator - Tested by W3C validators nto ensure correct practices used in JavaScript code.
 
 
 ## Credits
 
-* Images from pexel.com and unsplash.com
+* [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/) for providing free images for our site
 
-* Favicon for fav icon
+* [FreeFavicon](https://www.freefavicon.com/) for providing free favicon pink ribon
 
-* Google Fonts for fonts
-
-* Font Awesome for icons
+* [Google Fonts](https://fonts.google.com/) for fonts
 
 
-### Content
-<!-- - the a comes from b -->
-<!-- - the c comes from d -->
-### Media
-<!-- - the a comes from b -->
-<!-- - the c comes from d -->
-### Acknowledgements
-<!-- - acknowledge a, found at [b](bURL), for c -->
-<!-- - acknowledge d, found at [e](eURL), for f -->
+## Acknowledgements
+A special thanks to:
+
 * Code Institue for hosting the event
+
 * IT Labs for hosting the event 
+
 * [Aleksandra Vinokjikj](https://github.com/alexvinokikj) for being the team facilitator 
-***
 
-### Personal Development
-
-<!-- notes -->
