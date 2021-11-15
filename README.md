@@ -21,7 +21,7 @@ PINK team memebers:
 * [Estephanie Standen](https://github.com/Esteph27) [HTML, CSS, JavaScript, Python]
 * [Sophie Nagle](https://github.com/sophnagle) [HTML, CSS, JavaScript, UX/UI]
 * [Dee Cooper](https://github.com/deecooper)
-* [Rocky Chang](https://github.com/cloki0610)
+* [Rocky Chan](https://github.com/cloki0610)
 * [Kamil Kwiatkowski](https://github.com/kamil-kw) - Team Leder, skilled in [HTML, CSS , JavaScript, Python, Java, Bootstrap]
 
 ## Live Site
@@ -173,7 +173,8 @@ Being the first page the user lands on, we wanted the landing page to be welcomi
 
 ### Information section (Dee):
 
-### Carousel (Kamil/Rocky):
+### Carousel (Rocky):
+We have two carousel in our website. These components provdied by Bootstrap framework and it is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript. It works with a series of images, text, or custom markup. It also includes the previous/next controls and indicators. User can use the controls and indicators to view three images in the indicators.
 
 ### Story contact form (Kamil/Rocky):
 
